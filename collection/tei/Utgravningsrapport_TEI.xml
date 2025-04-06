@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="css/main.css type="text/css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+   <teiHeader>
+      <fileDesc>
+       
+         <titleStmt>
+            <title>Transkribering av utgrävningsrapport LUHM 20779, Grävning vid NOSABY, Villands härad.</title>
+            <author>Olof Källström</author>
+            <respStmt>
+               <name>Marie Anneling</name>
+               <resp>TEI och transkribering</resp>
+               </respStmt>
+            <respStmt>
+               <name> Amanda Torbjörnsdottir</name>
+               <resp> Rapportskrivning och transkribering</resp>
+            </respStmt>
+            <respStmt>
+               <name> Emma Walldén</name>
+               <resp> Bildredigering, kontakt med museum och koll på regler samt förhållningssätt kring digitalisering</resp>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>University of Borås</publisher>
+            <date>May 2025</date>
+            <availability>
+               <p>Kolla med lunds museum vad de anser?</p>
+            </availability>
+         </publicationStmt>
+       
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Lund</settlement>
+                  <institution>Lunds historiska museum </institution>
+                  <msName>LUHM 20779
+                     Grävning vid NOSABY, Villands härad.
+                     Fynd av 4 st. urnor.
+                     Okt. 1922.
+                  </msName>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     Utgrävningsrapport från oktober 1922 genomförd av Amunuens Olof Källström.
+                     Utgrävningen tog plats vid Nosaby, Villands Härad, dåvarande Kristianstads län. 
+                     Rapporten fanns hos Lunds historiska museums magasin.
+                     Rapporten består av sex sidor inklusive försättsblad samt bilagor i form av en karta
+                     och fyra fotografier
+                  </summary>
+                  <textLang>Svenska</textLang>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         <creation>Utgrävningsrapport från oktober 1922 genomförd av Amunuens Olof Källström.
+            Utgrävningen tog plats vid Nosaby, Villands Härad, dåvarande Kristianstads län.</creation>
+         <langUsage>
+            <language ident="sv">svenska</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   <facsimile>
+      <surface xml:id="postit01">
+         <figure>
+            <label>Post-It Front</label>
+            <figDesc>
+               A photograph of the front of a post-it with a simple example phrase.
+            </figDesc>
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="postit02">
+         <figure>
+            <label>Post-It Back</label>
+            <figDesc>
+               A photograph of the back a post-it with a simple example phrase.
+            </figDesc>
+            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
+            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+   
+   
+  <text>
+    
+      <body>
+       
+         <p>Some text here.</p>
+         <p>more text here.</p>
+      </body>
+  </text>
+</TEI>
