@@ -2,12 +2,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet href="css/main.css type="text/css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
    
    <teiHeader>
       <fileDesc>
-       
          <titleStmt>
             <title>Transkribering av utgrävningsrapport LUHM 20779, Grävning vid NOSABY, Villands härad.</title>
             <author>Olof Källström</author>
@@ -28,39 +27,56 @@
          <publicationStmt>
             <publisher>University of Borås</publisher>
             <date>May 2025</date>
+            <authority>Lunds historiska museum</authority>
             <availability>
-               <p>Kolla med lunds museum vad de anser?</p>
+               <p><!--Kolla med lunds museum vad de anser?  --></p>
             </availability>
          </publicationStmt>
-       
+         
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <settlement>Lund</settlement>
                   <institution>Lunds historiska museum </institution>
-                  <msName>LUHM 20779
-                     Grävning vid NOSABY, Villands härad.
-                     Fynd av 4 st. urnor.
-                     Okt. 1922.
-                  </msName>
                </msIdentifier>
                <msContents>
                   <summary>
-                     Utgrävningsrapport från oktober 1922 genomförd av Amunuens Olof Källström.
-                     Utgrävningen tog plats vid Nosaby, Villands Härad, dåvarande Kristianstads län. 
-                     Rapporten fanns hos Lunds historiska museums magasin.
-                     Rapporten består av sex sidor inklusive försättsblad samt bilagor i form av en karta
-                     och fyra fotografier
+                     <!--ska detta ligga här?-->
+                     Vid grävning av en grav på Nosaby kyrkogård, Willands härad, 
+                     Kristianstads län, den 22 okt. 1921 stötte kyrkväktaren på fyra 
+                     större lerkärl. Vid fyndtillfället verkställdes ingen undersökning. 
+                     1922 gjorde Olof Källström en efter undersökning på platsen.
+                     Det är efterundersökningen som har dokumenterats i det manuscript som transkriberas här.
                   </summary>
-                  <textLang>Svenska</textLang>
+                  <msItem>
+                     <author>Olof Källström</author>
+                     <title>LUHM 20779, Grävning vid NOSABY, Villands härad</title>
+                     <textLang>Svenska</textLang>
+                  </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <!--Här tror jag vi eventuellt kan lägga metadata om bilderna såväl som information om manusciptet-->  
+                     <p>Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad samt bilagor i form av en karta
+                        och fyra fotografier.</p>
+                     <p>
+                        Rapporten fotograferades och bilderna bearbetates för optimal läsbarhet.
+                        <!--metadata bilder-->
+                     </p>
+                  </objectDesc>    
+               </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+ 
       
       <profileDesc>
-         <creation>Utgrävningsrapport från oktober 1922 genomförd av Amunuens Olof Källström.
-            Utgrävningen tog plats vid Nosaby, Villands Härad, dåvarande Kristianstads län.</creation>
+         <handNotes>
+            <handNote>Original text skriven i grå blyerts, av Olof Källström.</handNote>
+         </handNotes>
+         <creation>
+            <date>oktober 1922</date>
+         </creation>
          <langUsage>
             <language ident="sv">svenska</language>
          </langUsage>
@@ -68,6 +84,7 @@
    </teiHeader>
    
    <facsimile>
+      <!-- Här lägger vi länkar till bilder (graphic) och beskriver eventuellt layout för bodyn? -->
       <surface xml:id="postit01">
          <figure>
             <label>Post-It Front</label>
@@ -89,7 +106,6 @@
          </figure>
       </surface>
    </facsimile>
-   
    
    
   <text>
