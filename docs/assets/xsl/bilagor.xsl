@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Top Layer
+                    DCHM Template: Transkribering
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,12 +30,12 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="hem.html">Hem</a> |
+                    <a href="bakgrund.html">Bakgrund</a> |
+                    <a href="transkribering.html">Transkribering</a> |
+                    <a href="bilagor.html">Bilagor</a> |
                 </nav>
-                <main>
+                <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
@@ -134,11 +134,18 @@
         </p>
     </xsl:template>
 
-    <!-- do not show del in toplayer transcription-->
+    <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
-        <span style="display:none">
+        <del>
             <xsl:apply-templates/>
-        </span>
+        </del>
+    </xsl:template>
+
+    <!-- transform tei add into html sup -->
+    <xsl:template match="tei:add">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
     </xsl:template>
 
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->

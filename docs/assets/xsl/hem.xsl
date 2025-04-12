@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Home
+                    DCHM Template: Hem
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,10 +30,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="hem.html">Hem</a> |
+                    <a href="bakgrund.html">Bakgrund</a> |
+                    <a href="transkribering.html">Transkribering</a> |
+                    <a href="bilagor.html">Bilagor</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -72,11 +72,11 @@
                                 <div class="col-sm">
                                     <article id="details">
                                       <p>
-                                        <strong>Author:</strong><br/>
+                                        <strong>Skapad av:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                       </p>
                                       <p>
-                                        <strong>Transcription by:</strong><br/>
+                                        <strong>Transkribering av:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                       </p>
                                     </article>

@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Diplomatic View
+                    DCHM Template: Bakgrund
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,10 +30,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="hem.html">Hem</a> |
+                    <a href="bakgrund.html">Bakgrund</a> |
+                    <a href="transkribering.html">Transkribering</a> |
+                    <a href="bilagor.html">Bilagor</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -121,13 +121,12 @@
     html-->
     <xsl:template match="tei:teiHeader"/>
 
-    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
     <xsl:template match="tei:lb">
-        <br/>
+        <xsl:choose>
+            <xsl:when test="@rend"></xsl:when>
+            <xsl:otherwise><br/></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
-    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
-    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
-    apply to the nodes nested within it.-->
 
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head">

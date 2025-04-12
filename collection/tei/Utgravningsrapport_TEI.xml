@@ -10,6 +10,7 @@
          <titleStmt>
             <title>Transkribering av utgrävningsrapport LUHM 20779, Grävning vid NOSABY, Villands härad.</title>
             <author>Olof Källström</author>
+            <principal>Transkriberat av Marie Anneling, Amanda Torbjörnsdottir och Emma Walldén</principal>
             <respStmt>
                <name>Marie Anneling</name>
                <resp>TEI och transkribering</resp>
@@ -84,7 +85,7 @@
    </teiHeader>
    
    <facsimile>
-      <!-- Här lägger vi länkar till bilder (graphic) och beskriver eventuellt layout för bodyn? -->
+      <!-- Här tar vi bort Wout's info och lägger egna länkar till bilder (graphic) och beskriver eventuellt layout för bodyn? -->
       <surface xml:id="postit01">
          <figure>
             <label>Post-It Front</label>
@@ -107,13 +108,195 @@
       </surface>
    </facsimile>
    
-   
-  <text>
-    
+   <text> <!--Här börjar själva texten/transbriberingen-->
       <body>
-       
-         <p>Some text here.</p>
-         <p>testar uppladning till github.</p>
+         <div type="page" facs="#Image1_forsattsblad"> <!--div innebär här att det kommer en  bild med text brevid-->
+            <head>
+               <hi rend="u">LUHM 20779, Grävning vid NOSABY, Villands härad</hi>
+            </head>
+            <p> <!--p står för stycketindelning-->
+                    LUHM 20779
+               <lb/>Grävning vid NOSABY, Villands härad. <!--lb står för ny rad-->
+               <lb/>Fynd av 4 st. urnor.
+               <lb/>Okt. 1922.
+            </p>
+         </div>
+         <div type="page" facs="#Image2"> <!--div innebär här att det kommer en ny bild med text brevid-->
+            <p>
+                     Grävning i Nosaby.
+               <lb/> Vid grävning av en grav å Nosaby kyrkogård, Willands härad, Kristianstads län,  
+               <lb/> den 22 okt 1921 stötte kyrkväktaren på fyra  större lerkärl. 
+               <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan.
+            </p>
+            
+            <p>
+                     DETALJSKISS AV KYRKOGÅRDEN
+               <lb/> Beskrivning av skiss: skissen visar en ritning av kyrkogården där fynden hittades
+             </p>
+               
+             <p>
+                     FYNDSTÄLLET
+               <lb/> NYARE UTVIDGNING 
+               <lb/> ÅT NORR AV KYRKOGÅRDEN.
+               <lb/>  UNGEFÄRLIG GRÄNS FÖR DEN ÄLDRE KYRKOGÅRDEN.
+               <lb/> ÄLDRE KYRKOGÅRD.
+               <lb/> 71,5 METER
+               <lb/> 16,4 METER
+                <lb/> KYRKO<lb rend="-"/>BYGGNADEN. <!--<lb rend="-"/> ersätter bindesteck-->
+             </p>
+            </div>
+            
+            <div type="page" facs="#image3">
+               <p>
+                        Fyndstället är beläget på en ny<lb rend="-"/>ligen företagen utvidgning    
+                  <lb/> åt norr av kyrkogården (övre delen av kart<lb rend="-"/>skissen på föregående sida).
+                  <lb/> Marken består av grov, lös sand med inslag av svart, lerig jord 
+                  <lb/> (denna senare dock troligen hitkommen i samband med upp<lb rend="-"/>läggningen av gravkullar och 
+                  anord<lb rend="-"/>nandet av blomsterrabatter).
+                  <lb/>Vid pla<lb rend="-"/>neringen av kyrkogården avlägsna<lb rend="-"/>des 
+                  ett mer än halvmetertjockt grus<lb rend="-"/>lager,
+                  <lb/>varför lerkärlen ursprungligen stått 110-130 cm under ytan.
+               </p>
+               
+                  <p>
+                     Vid fyndtillfället verkställdes ingen undersökning.  
+                     <lb/>Emellertid utförde undertecknad den 6-7 okt 1922 en efterundersökning på platsen.
+                  </p>
+                   
+                <p>
+                   Då genomgrävdes och sållades jor<lb rend="-"/>den på ett område som sträckte sig 
+                   <lb/>från kullen på den grav,vid vars grävning fyndet gjordes (i gravens norra vägg),
+                   <lb/>och till närmast norr därom belägna gravkulle samt så djupt som ske kunde,
+                   <lb/>utan att kis<lb rend="-"/>torna skadades av spaden.
+                   <lb/>Sanden var mestadels rörd, men en smal vägg stod dock orörd kvar.
+                   <lb/> I denna kunde ej upptäckas något kulturlager eller någon sotig jord.
+                   <lb/> Några kvar<lb rend="-"/>blivna, mindre skärvor, hörande till 
+                   de förut påträffade krukorna,
+                   <lb/> hitta<lb rend="-"/>des, eljest intet. Dessa lågo på olika höjd och plats inom det område,
+                   <lb/> som å skissen är betecknat med(tecknad fyrkant).
+                </p>
+                  
+               <p> 
+                  Ett tjugotal meter norr om detta ställe har vid ett annat till- 
+               </p>
+            </div>
+         
+               <div type="page" facs="#Image4">
+                  <p>
+                           fälle hittats en mindre spjutspets av grå flinta, 
+                     <lb/> grovt tillhuggen och delvis oskadad.
+                  </p>
+                   <p>
+                      Lund den 10 okt. 1922
+                      <lb/>Olof Källström
+                      <lb/>Amanuens.
+                   </p>
+               </div>
+                     
+         <div type="page" facs="#Image5">
+            <p>
+               Grävning i Nosaby.
+               <lb/>Detaljskiss av Kyrkogården.
+               <lb/>Beskrivning av skiss: Skissen visar en ritning av kyrkogården där fynden hittats.
+            </p>
+            <p>
+               Tidigare fynd å platsen. 
+               <lb/> Vid grävning av en grav å Nosaby Kyrkogård,Willands härad,Kristian<lb rend="-"/>stads län, 
+               <lb/> den 22 okt.1921 stötte kyrkväktaren på 4 större lerkärl.
+               <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan.
+            </p>
+                
+            <p>
+               Fyndstället är beläget på  en nyligen företagen ut<lb rend="-"/>vidgning
+                 <lb/>åt norr av  Kyrkogården (nedre delen av vidstående skiss).
+               <lb/>Mar<lb rend="-"/>ken består av grov lös sand med inslag av svart,lerig jord 
+               <lb/>(denna senare dock hitkommen i samband med uppläggningen av gravkullar och anordnandet 
+               av blomsterrabatter).
+               <lb/>Vid planeringen av den nya kyrko<lb rend="-"/>gården avlägsnades ett mer än halvmeterstjockt grus<lb rend="-"/>lager
+               <lb/> varför lerkärlen ursprungligen stått 110-130 cm under ytan
+            </p>
+      
+            <p>
+               Grävning.
+            </p>
+            
+            <p>
+               Vid fyndtillfället verkställdes ingen undersökning. 
+               Emel<lb rend="-"/>lertid utförde undertecknad den 6-7 okt. 1922 en efter<lb rend="-"/>undersökning på platsen.
+            </p>
+            
+            <p>
+               Då genomgrävdes och sållades jorden på ett område som
+               <lb/>sträckte sig från kullen på den grav,
+               <lb/>vid vars grävning  fyndet gjordes ( i gravens norra vägg),
+               <lb/>och till närmast 
+            </p>
+         </div>
+         
+         <div type="page" facs="#Image6">
+            <p>
+               norr om belägna gravkulle samt så djupt som ske kunde,
+               <lb/>utan att kistorna skadades av spaden. 
+               <lb/>San<lb rend="-"/>den var mestadels rörd, men en smal vägg stod dockorörd kvar. 
+               <lb/>I denna kunde ej upptäckas något  kulturlager eller någon sotig jord. 
+               <lb/>Några kvar<lb rend="-"/>blivna, mindre skärvor, hörande till de förut 
+               på<lb rend="-"/>träffade krukorna hittades,
+               <lb/>eljest intet. Dessa lå<lb rend="-"/>go på olika höjd och plats 
+               <lb/>inom det område som å skissen är betecknat med (tecknad fyrkant). 
+               <lb/>Ett tjugotal meter norr om detta ställe har vid ett annat tillfälle hittats
+               <lb/>en mindre spjutspets av grå flinta, grovt tillhuggen och delvis skadad.
+            </p>
+               
+            <p>
+                    Lund, den 10 okt. 1922
+               <lb/>Olof Källström  
+            </p>
+         </div>
+         
+         <div type="page" facs="#Image7">
+            <p>
+               BILAGA TILL REDOGÖRELSE FÖR GRÄVNING Å NOSABY KYRKOGÅRD DEN 6 OCH 7 OKT. 1922 MED ANLEDNING AV FYND AV STENÅLDERSKÄRL [INV.20779].
+               
+               <lb/>Beskrivning kartskiss: Kartskiss över Nosaby kyrkas läge.
+               
+               <lb/>KARTSKISS, UTVISANDE NOSABY KYRKAS LÄGE I FÖRH. TILL OMGIVANDE SJÖAR. 
+               
+               <lb/>LUND DEN 9 DEC. 1922. OLOF KÄLLSTRÖM  
+            </p>
+            </div>
+         
+         <div type="page" facs="#Image8">
+            <p>
+               Beskrivning: Fotografi på ett av de upphittade lerkärlen, fotograferat från två olika håll? 
+            </p>
+         </div>
+         
+         <div type="page" facs="#Image9">
+            <p>
+               Beskrivning: Skärvor från de upphittade krukorna. 
+            </p>
+         </div>
+         
+         <div type="page" facs="#Image10">
+            <p>
+               Beskrivning: Fotografi från utgrävningsplatsen.  
+            </p>
+         </div>
+         
       </body>
-  </text>
+   </text>
 </TEI>
+            
+            
+               
+               
+
+            
+            
+           
+                 
+                  
+                  
+              
+               
+         
