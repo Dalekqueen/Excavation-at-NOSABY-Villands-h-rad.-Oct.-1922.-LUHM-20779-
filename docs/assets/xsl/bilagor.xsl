@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Bilagor
+                    DCHM Template: Transkribering
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,7 +30,7 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Index</a> |
+                    <a href="hem.html">Hem</a> |
                     <a href="bakgrund.html">Bakgrund</a> |
                     <a href="transkribering.html">Transkribering</a> |
                     <a href="bilagor.html">Bilagor</a> |
