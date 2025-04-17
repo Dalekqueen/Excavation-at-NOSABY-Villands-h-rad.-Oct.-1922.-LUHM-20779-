@@ -86,15 +86,13 @@
    </teiHeader>
    
    <facsimile>
-      <!-- Här tar vi bort Wout's info och lägger egna länkar till bilder (graphic) och beskriver eventuellt layout för bodyn? -->
       <surface xml:id="postit01">
          <figure>
-            <label>Post-It Front</label>
+            <label>Forsattsblad</label>
             <figDesc>
-               A photograph of the front of a post-it with a simple example phrase.
+               Ett foto på försättsbladet.
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="Forsattsblad" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad"/>
          </figure>
       </surface>
       <surface xml:id="postit02">
