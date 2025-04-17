@@ -31,7 +31,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="hem.html">Hem</a> |
-                    <a href="bakgrund.html">Bakgrund</a> |
+                    <a href="index.html">Bakgrund</a> |
                     <a href="transkribering.html">Transkribering</a> |
                     <a href="bilagor.html">Bilagor</a> |
                 </nav>
