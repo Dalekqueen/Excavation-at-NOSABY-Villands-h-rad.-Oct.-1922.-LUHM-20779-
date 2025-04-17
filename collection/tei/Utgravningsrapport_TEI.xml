@@ -92,7 +92,8 @@
             <figDesc>
                Ett foto på försättsbladet.
             </figDesc>
-            <graphic xml:id="Forsattsblad" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad"/>
+            <graphic xml:id="Forsattsblad" url="assets/img/documents/Forsattsblad"/>
+            <graphic xml:id="Forsattsblad_kopia" url="Forsattsblad_kopia"/>
          </figure>
       </surface>
       <surface xml:id="postit02">
