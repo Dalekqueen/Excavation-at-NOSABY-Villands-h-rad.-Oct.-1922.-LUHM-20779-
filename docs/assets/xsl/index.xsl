@@ -30,7 +30,7 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="hem.html">Hem</a> |
+                    <a href="index.html">Hem</a> |
                     <a href="bakgrund.html">Bakgrund</a> |
                     <a href="transkribering.html">Transkribering</a> |
                     <a href="bilagor.html">Bilagor</a> |
@@ -72,11 +72,11 @@
                                 <div class="col-sm">
                                     <article id="details">
                                       <p>
-                                        <strong>Skapad av:</strong><br/>
+                                        <strong>Author:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                       </p>
                                       <p>
-                                        <strong>Transkribering av:</strong><br/>
+                                        <strong>Transcription by:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                       </p>
                                     </article>
