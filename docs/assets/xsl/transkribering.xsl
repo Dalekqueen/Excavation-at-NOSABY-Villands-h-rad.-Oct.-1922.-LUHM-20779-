@@ -6,7 +6,7 @@
 
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
+       
         <html lang="en" xml:lang="en">
             <head>
                 <title>
