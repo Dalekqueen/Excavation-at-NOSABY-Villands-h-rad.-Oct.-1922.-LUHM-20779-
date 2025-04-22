@@ -44,7 +44,7 @@
                                 <h3>Bilder</h3>
                             </div>
                             <div class="col-md">
-                                <h3>Transkribering</h3>
+                                <h3>Bakgrund</h3>
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
