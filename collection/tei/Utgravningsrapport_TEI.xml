@@ -59,7 +59,7 @@
                <physDesc>
                   <objectDesc>
                      <!--Här tror jag vi eventuellt kan lägga metadata om bilderna såväl som information om manusciptet-->  
-                     <p>Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad samt bilagor i form av en karta
+                     <p>Rapporten är handskriven(försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad samt bilagor i form av en karta
                         och fyra fotografier.</p>
                      <p>
                         Rapporten fotograferades och bilderna bearbetates för optimal läsbarhet.
@@ -84,37 +84,114 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-   
+         
    <facsimile>
-      <!-- Här lägger vi länkar till bilder (graphic) och metadata om bilderna -->
-      <surface xml:id="Forsattsblad">
+      <!-- Här lägger vi länkar till våra bilder-->
+      <surface xml:id="forsattsblad">
          <figure>
             <label>Försättsbladet på rapporten</label>
             <figDesc>
                Ett foto på rapportens Försättsblad.
             </figDesc>
-            <graphic xml:id="forsattsblad" url="assets/img/documents/forsattsblad.png"/>
-            <graphic xml:id="forsattsblad_thumb" url="assets/img/documents/forsattsblad_thumb.png"/>
-       
+            <graphic xml:id="forsattsblad_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_full.jpg"/>
+            <graphic xml:id="forsatttsblad_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_thumb.jpg"/>
          </figure>
       </surface>
-      <surface xml:id="postit02">
+      <surface xml:id="sida1">
          <figure>
-            <label>Post-It Back</label>
-            <figDesc>
-
-A photograph of the back a post-it with a simple example phrase.
+            <label>Första sidan av rapporten</label>
+            <figDesc> 
+               Ett fotografi på första sidan av rapporten
             </figDesc>
-            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
-            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+            <graphic xml:id="sida1_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_1_full.jpg"/>
+            <graphic xml:id="sida1_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_1_thumb.jpg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida2">
+               <figure>
+                  <label>Andra sidan av rapporten</label>
+                  <figDesc> 
+                     Ett fotografi på andra sidan av rapporten
+                  </figDesc>
+                  <graphic xml:id="sida2_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_2_full.jpg"/>
+                  <graphic xml:id="sida2_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_2_thumb.jpg"/>
+               </figure>
+      </surface>
+      <surface xml:id="sida3">
+         <figure>
+            <label>Tredje sidan av rapporten</label>
+            <figDesc> 
+               Ett fotografi på tredje sidan av rapporten
+            </figDesc>
+            <graphic xml:id="sida3_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_3_full.jpg"/>
+            <graphic xml:id="sida3_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_3_thumb.jpg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida4">
+         <figure>
+            <label>Fjärde sidan av rapporten</label>
+            <figDesc> 
+               Ett fotografi på fjärde sidan av rapporten
+            </figDesc>
+            <graphic xml:id="sida4_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_4_full.jpg"/>
+            <graphic xml:id="sida4_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_4_thumb.jpg"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida5">
+         <figure>
+            <label>Femte sidan av rapporten</label>
+            <figDesc> 
+               Ett fotografi på femte sidan av rapporten
+            </figDesc>
+            <graphic xml:id="sida5_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_5_full.jpg"/>
+            <graphic xml:id="sida5_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_5_thumb.jpg"/>
+         </figure>
+      </surface>
+      <surface xml:id="kartskiss">
+         <figure>
+            <label>Kartskiss</label>
+            <figDesc> 
+               Ett fotografi på en kartskiss
+            </figDesc>
+                        <graphic xml:id="kartskiss_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Kartskiss_full.jpg"/>
+                        <graphic xml:id="kartskiss_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Kartskiss_thumb.jpg"/>
+                     </figure>
+                  </surface>
+      <surface xml:id="lerkarl">
+         <figure>
+            <label>Lerkärl</label>
+            <figDesc> 
+               Ett foto på ett fotografi på 2 lerkärl
+            </figDesc>
+            <graphic xml:id="lerkarl_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_full.jpg"/>
+            <graphic xml:id="lerkarl_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_thumb.jpg"/>
+         </figure>
+      </surface>
+      <surface xml:id="skarvor">
+         <figure>
+            <label>Skärvor</label>
+            <figDesc> 
+               Ett foto på ett fotografi på skärvor från lerkärlen
+            </figDesc>
+            <graphic xml:id="skarvor_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Skarvor_full.jpg"/>
+            <graphic xml:id="skarvor_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Skarvor_thumb.jpg"/>
+         </figure>
+      </surface>
+      <surface xml:id="utgravningsplats">
+         <figure>
+            <label>Utgravningsplats</label>
+            <figDesc> 
+               Ett foto på ett fotografi på 2 lerkärl
+            </figDesc>
+            <graphic xml:id="utgravningsplats_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_full.jpg"/>
+            <graphic xml:id="utgravningsplats_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_thumb.jpg"/>
          </figure>
       </surface>
    </facsimile>
    
-   
    <text> <!--Här börjar själva texten/transbriberingen-->
       <body>
-         <div type="page" facs="#Image1_forsattsblad"> <!--div innebär här att det kommer en  bild med text brevid-->
+         <div type="page" facs="#forsattsblad"> <!--div innebär här att det kommer en  bild med text brevid-->
             <head>
                <hi rend="u">LUHM 20779, Grävning vid NOSABY, Villands härad</hi>
             </head>
@@ -125,7 +202,7 @@ A photograph of the back a post-it with a simple example phrase.
                <lb/>Okt.1922.
             </p>
          </div>
-         <div type="page" facs="#Image2"> <!--div innebär här att det kommer en ny bild med text brevid-->
+         <div type="page" facs="#sida1"> <!--div innebär här att det kommer en ny bild med text brevid-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
                <lb/> Vid grävning av en grav å <hi rend="underline">Nosaby kyrkogård, Willands härad</hi>, Kristianstads län,  
@@ -150,7 +227,7 @@ A photograph of the back a post-it with a simple example phrase.
             </p>
          </div>
          
-         <div type="page" facs="#image3">
+         <div type="page" facs="#sida2">
             <p>
                Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning    
                   <lb/> åt norr av kyrkogården </hi> (övre delen av kart<lb rend="-"/>skissen på föregående sida).
@@ -177,7 +254,7 @@ A photograph of the back a post-it with a simple example phrase.
                <lb/> Några kvar<lb rend="-"/>blivna, mindre skärvor, hörande till 
                de förut påträffade krukorna,
                <lb/> hitta<lb rend="-"/>des, eljest intet. Dessa lågo på olika höjd och plats inom det område,
-               <lb/> som å skissen är betecknat med(tecknad fyrkant).
+               <lb/> som å skissen är betecknat med (tecknad fyrkant).
             </p>
             
             <p> 
@@ -185,7 +262,7 @@ A photograph of the back a post-it with a simple example phrase.
             </p>
          </div>
          
-         <div type="page" facs="#Image4">
+         <div type="page" facs="#sida3">
             <p>
                fälle hittats en mindre spjutspets av grå flinta, 
                <lb/> grovt tillhuggen och delvis oskadad.
@@ -197,7 +274,7 @@ A photograph of the back a post-it with a simple example phrase.
             </p>
          </div>
          
-         <div type="page" facs="#Image5">
+         <div type="page" facs="#sida4">
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
                <lb/>Detaljskiss av Kyrkogården.
@@ -237,7 +314,7 @@ A photograph of the back a post-it with a simple example phrase.
             </p>
          </div>
          
-         <div type="page" facs="#Image6">
+         <div type="page" facs="#sida5">
             <p>
                norr om belägna gravkulle samt så djupt som ske kunde,
                <lb/>utan att kistorna skadades av spaden. 
@@ -257,7 +334,7 @@ A photograph of the back a post-it with a simple example phrase.
             </p>
          </div>
          
-         <div type="page" facs="#Image7">
+         <div type="page" facs="#kartskiss">
             <p>
                BILAGA TILL REDOGÖRELSE FÖR GRÄVNING Å NOSABY KYRKOGÅRD DEN 6 OCH 7 OKT. 1922 MED ANLEDNING AV FYND AV STENÅLDERSKÄRL [INV.20779].
                
@@ -269,19 +346,19 @@ A photograph of the back a post-it with a simple example phrase.
             </p>
          </div>
          
-         <div type="page" facs="#Image8">
+         <div type="page" facs="#lerkarl">
             <p>
                Beskrivning: Fotografi på ett av de upphittade lerkärlen, fotograferat från två olika håll? 
             </p>
          </div>
          
-         <div type="page" facs="#Image9">
+         <div type="page" facs="#skarvor">
             <p>
-               Beskrivning: Skärvor från de upphittade krukorna. 
+               Beskrivning: Skärvor från de upphittade lerkärlen. 
             </p>
          </div>
          
-         <div type="page" facs="#Image10">
+         <div type="page" facs="#utgravningsplats">
             <p>
                Beskrivning: Fotografi från utgrävningsplatsen.  
             </p>
