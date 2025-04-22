@@ -194,7 +194,7 @@
          <div type="page" facs="#forsattsblad"> <!--div innebär här att det kommer en  bild med text brevid-->
             <p> <!--p står för styckesindelning-->
                LUHM 20779
-               <lb/><hi rend="u">Grävning vid NOSABY, Villands härad.</hi><!--lb står för ny rad-->
+               <lb/><hi rend="underline">Grävning vid NOSABY, Villands härad.</hi><!--lb står för ny rad-->
                <lb/>Fynd av 4 st. urnor.
                <lb/>Okt.1922.
             </p>

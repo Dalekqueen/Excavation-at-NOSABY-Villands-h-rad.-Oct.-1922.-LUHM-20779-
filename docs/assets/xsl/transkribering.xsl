@@ -141,14 +141,14 @@
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
-
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
+    
+    <!-- transform tei add into html sup -->
     <xsl:template match="tei:hi[@rend = 'underline']">
         <u>
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    
     
     
 
