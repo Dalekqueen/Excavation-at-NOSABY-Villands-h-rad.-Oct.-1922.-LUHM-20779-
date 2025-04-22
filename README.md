@@ -1,5 +1,4 @@
+Digitizing Nosaby Excavation Report
 
 
-Here we should write a short introduction the project.
-
-
+This repository was created as part of the Digitization for preservation and accessibility course at the University of Borås. It documents the digitization of a historical excavation report authored by Olof Källström in October 1922, covering a follow-up excavation in Nosaby (Kristianstad, Sweden). The project includes metadata, descriptive information, and digital files designed for long-term access and presentation on GitHub. 
