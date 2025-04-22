@@ -192,12 +192,9 @@
    <text> <!--Här börjar själva texten/transbriberingen-->
       <body>
          <div type="page" facs="#forsattsblad"> <!--div innebär här att det kommer en  bild med text brevid-->
-            <head>
-               <hi rend="u">LUHM 20779, Grävning vid NOSABY, Villands härad</hi>
-            </head>
             <p> <!--p står för stycketindelning-->
                LUHM 20779
-               <lb/>Grävning vid NOSABY, Villands härad. <!--lb står för ny rad-->
+               <lb/><hi rend="u">Grävning vid NOSABY, Villands härad.</hi><!--lb står för ny rad-->
                <lb/>Fynd av 4 st. urnor.
                <lb/>Okt.1922.
             </p>
