@@ -29,6 +29,67 @@ h3 {
     
 }
 
+body {
+	padding: 1vw;
+	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+	line-height: 1.25;
+	font-size: 1vw;
+  width: 100%;
+  
+   font-family: Arial, sans-serif;
+            
+	}
+
+h1, h2, h3, nav, footer {
+    text-align: center;
+    color : #0097CA
+}
+
+nav {
+    margin-bottom: 1vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;
+}
+
+h2 {
+    padding: 1vw;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 1vw;
+    
+}
+
+            
+        .ref {
+        padding-top : 1em
+        }
+        .authors {
+        font-weight : bold
+        }
+        .citation {
+        font-style: italic;
+        margin: 2em 0 0 2em;
+        }
+        .blockquote {
+            margin: 2em 0 0 2em;
+            padding-left: 1em;
+        }
+                .term {
+            font-size: .9em;
+            color: #430;
+            font-family: Arial, sans-serif;
+            border: 1px solid;
+            border-radius: 6px;
+            padding: .2ex .35em;
+            background-color: #ffffff;
+        }
+        .blockquote p {
+            max-width: calc(53rem - 3em);
+        }
+
 #details {
     padding: 2vw;
     margin: 1vw;
@@ -41,19 +102,7 @@ footer {
     margin-top: 1vw;
 }
 
-.copyright {
-    width: 50%;
-    margin: auto;
-}
 
-.copyright_logos, .copyright_text {
-    display: inline;
-}
-
-.copyright_logo {
-		width: 1vw;
-		margin:.15vw;
-	}
 
 .row {
     padding: 1vw;
