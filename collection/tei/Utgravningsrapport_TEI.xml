@@ -202,7 +202,7 @@
          <div type="page" facs="#sida1"> <!--div innebär här att det kommer en ny bild med text brevid-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
-               <lb/> Vid grävning av en grav å <hi rend="underline">Nosaby kyrkogård, Willands härad</hi>, Kristianstads län,  
+               <lb/> <hi rend="indent">Vid grävning av en grav å <hi rend="underline">Nosaby kyrkogård, Willands härad</hi>, Kristianstads län,</hi>  
                <lb/> den 22 okt 1921 stötte kyrkväktaren på <hi rend="underline">fyra  större lerkärl. 
                   <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan</hi>.
             </p>
@@ -226,7 +226,7 @@
          
          <div type="page" facs="#sida2">
             <p>
-               Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning    
+               <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning</hi>    
                   <lb/> åt norr av kyrkogården </hi> (övre delen av kart<lb rend="-"/>skissen på föregående sida).
                <lb/> Marken består av grov, lös sand med inslag av svart, lerig jord 
                <lb/> (denna senare dock troligen hitkommen i samband med upp<lb rend="-"/>läggningen av gravkullar och 
@@ -237,7 +237,7 @@
             </p>
             
             <p>
-               Vid fyndtillfället verkställdes ingen undersökning.  
+               <hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning.</hi>  
                <lb/>Emellertid utförde undertecknad den 6-7 okt 1922 en <hi rend="underline">efterundersökning</hi> på platsen.
             </p>
             
@@ -278,14 +278,14 @@
                <lb/>Beskrivning av skiss: Skissen visar en ritning av kyrkogården där fynden hittats.
             </p>
             <p>
-               Tidigare fynd å platsen. 
-               <lb/> Vid grävning av en grav å <hi rend="underline">Nosaby Kyrkogård,Willands härad</hi>,Kristian<lb rend="-"/>stads län, 
+               <hi rend="intend"><hi rend="underline">Tidigare fynd å platsen.</hi> </hi>
+               <lb/> <hi rend="intend">Vid grävning av en grav å <hi rend="underline">Nosaby Kyrkogård,Willands härad</hi>,Kristian<lb rend="-"/>stads län,</hi> 
                <lb/> den 22 okt.1921 stötte kyrkväktaren på <hi rend="underline">4 större lerkärl</hi>.
                <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan.
             </p>
             
             <p>
-               Fyndstället är beläget på  en <hi rend="underline">nyligen företagen ut<lb rend="-"/>vidgning
+               <hi rend="intend">Fyndstället är beläget på  en <hi rend="underline">nyligen företagen ut<lb rend="-"/>vidgning</hi>
                     <lb/>åt norr av  Kyrkogården</hi> (nedre delen av vidstående skiss).
                <lb/>Mar<lb rend="-"/>ken består av grov lös sand med inslag av svart,lerig jord 
                <lb/>(denna senare dock hitkommen i samband med uppläggningen av gravkullar och anordnandet 
@@ -299,12 +299,12 @@
             </p>
             
             <p>
-               Vid fyndtillfället verkställdes ingen undersökning. 
+               <hi rend="intend">Vid fyndtillfället verkställdes ingen undersökning. </hi>
                Emel<lb rend="-"/>lertid utförde undertecknad den 6-7 okt. 1922 en efter<lb rend="-"/>undersökning på platsen.
             </p>
             
             <p>
-               Då genomgrävdes och sållades jorden på ett område som
+               <hi rend="intend">Då genomgrävdes och sållades jorden på ett område som </hi>
                <lb/>sträckte sig från kullen på den grav,
                <lb/>vid vars grävning  fyndet gjordes ( i gravens norra vägg),
                <lb/>och till närmast 
