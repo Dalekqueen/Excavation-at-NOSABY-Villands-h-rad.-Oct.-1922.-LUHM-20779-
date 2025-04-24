@@ -60,9 +60,9 @@
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
-                                <article id="description">
+                                <article id="beskrivning">
                                   <p>
-                                    <strong>Description:</strong> &#160;
+                                    <strong>Beskrivning:</strong> &#160;
                                     <xsl:apply-templates select="//tei:sourceDesc"/>
                                   </p>
                                 </article>
