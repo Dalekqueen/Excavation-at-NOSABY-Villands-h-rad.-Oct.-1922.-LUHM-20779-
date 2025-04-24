@@ -40,9 +40,7 @@
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
-                            <div class="col-">
-                                <h3>Bilder</h3>
-                            </div>
+                            
                             <div class="col-md">
                                 <h3>Bakgrund</h3>
                             </div>

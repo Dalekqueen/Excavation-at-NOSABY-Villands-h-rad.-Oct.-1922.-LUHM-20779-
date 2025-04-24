@@ -37,8 +37,8 @@
          
          <sourceDesc>
             <msDesc>
-               <msIdentifier>
-                  <settlement>Lund/Nosaby?</settlement>
+               <msIdentifier> <!-- hur döljer vi detta på hemsidan? -->
+                  <settlement>Lund</settlement>
                   <institution>Lunds historiska museum </institution>
                </msIdentifier>
                <msContents>
@@ -61,10 +61,38 @@
                      <!--Här tror jag vi eventuellt kan lägga metadata om bilderna såväl som information om manusciptet-->  
                      <p>Rapporten är handskriven(försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad samt bilagor i form av en karta
                         och fyra fotografier.</p>
-                     <p>
-                        Rapporten fotograferades och bilderna bearbetates för optimal läsbarhet.
-                        <!--metadata bilder-->
+                     <!-- Metadata som inte behöver synas på websidan, bör döljas i xsl istället? 
+                        <p>
+                        Rapporten fotograferades och bilderna bearbetades för optimal läsbarhet.
+                        
+                        Teknisk information om bildfångstenheten
+                        Kamera: NIKON D7100
+                        Redigeringsprogram:
+                        Darktable 5.0.1
+                        Filformat: NEF till TIFF
+                        GIMP 3.0.0.  
+                        Filformat: TIFF, 16 bit, 300 dpi, sRGB
+                        
+                        Beskrivande och bibliografisk (information om det fysiska föremålet)
+                        Skapare: Olof Källström
+                        Datum: Oktober 1922
+                        Plats: Lund/Nosaby
+                        Objekt: Utgrävningsrapport
+                        Beskrivning: Rapport över en efterutgrävning i Nosaby (Kristianstad). 
+                        Copyright:
+                        Titel: Grävning vid NOSABY, Villands härad. Okt. 1922. (LUHM 20779)
+                        Storlek: A4
+                        Antal sidor: 9
+                        Antal fotografier: 4
+                        
+                        Administrativ (information om det digitala objektet)
+                        När: 20 mars, 2025
+                        Var: Skiffervägen 14, LUND 224 78
+                        Hur: 
+                        På magasinet i ett fotorum.
+                        Kamerainställningarna gjordes med hjälp av anställd som ansvarar för fotografering på magasinet.
                      </p>
+                     -->
                   </objectDesc>    
                </physDesc>
             </msDesc>
@@ -194,6 +222,8 @@
          <div type="page" facs="#forsattsblad"> <!--div innebär här att det kommer en  bild med text brevid-->
             <p> <!--p står för styckesindelning-->
                LUHM 20779
+               </p>
+            <p>
                <lb/><hi rend="underline">Grävning vid NOSABY, Villands härad.</hi><!--lb står för ny rad-->
                <lb/>Fynd av 4 st. urnor.
                <lb/>Okt.1922.
