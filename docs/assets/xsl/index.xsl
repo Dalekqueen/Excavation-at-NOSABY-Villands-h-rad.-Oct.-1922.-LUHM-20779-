@@ -88,6 +88,9 @@
                                         <p>  
                                             <strong>Universitet:</strong><br/>
                                             <xsl:apply-templates select="//tei:publicationStmt/tei:publisher"/>
+                                            <p>
+                                            <xsl:apply-templates select="//tei:publicationStmt/tei:date"/>
+                                            </p>
                                         </p>
                                     </article>
                                 </div>
