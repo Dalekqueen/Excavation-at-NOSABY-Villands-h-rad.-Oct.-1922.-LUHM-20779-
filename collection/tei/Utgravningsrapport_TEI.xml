@@ -228,7 +228,7 @@
                <lb/>Okt.1922.
             </p>
          </div>
-         <div type="page" facs="#sida1"> <!--denna sida har redigerats för att matcha chatgpt xsl koden för indents-->
+         <div type="page" facs="#sida1"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
             </p>
@@ -255,7 +255,7 @@
             </p>
          </div>
          
-         <div type="page" facs="#sida2"> <!--denna sida har redigerats för att matcha chatgpt xsl koden för indents-->
+         <div type="page" facs="#sida2"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
             <p>
             <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning</hi>    
                åt norr av kyrkogården</hi> 
@@ -296,7 +296,7 @@
             </p>
          </div>
          
-         <div type="page" facs="#sida4"> <!--denna sida har redigerats för att matcha chatgpt xsl koden för indents-->
+         <div type="page" facs="#sida4"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
                <lb/>Detaljskiss av Kyrkogården.

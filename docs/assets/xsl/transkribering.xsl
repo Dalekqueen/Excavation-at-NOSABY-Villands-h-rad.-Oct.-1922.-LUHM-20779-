@@ -150,9 +150,7 @@
     </xsl:template>   
     
 
-    <!-- nedan är ett test från chat gpt --> 
-    
-    <xsl:output method="html" indent="yes"/>
+    <!-- nedan är en testkod --> 
     
     <!-- Template for <hi> elements with rend="indent" -->
     <xsl:template match="tei:hi[@rend='indent']">
