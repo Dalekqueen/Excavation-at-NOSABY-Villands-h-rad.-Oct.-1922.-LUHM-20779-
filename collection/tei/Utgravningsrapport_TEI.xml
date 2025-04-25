@@ -228,11 +228,13 @@
                <lb/>Okt.1922.
             </p>
          </div>
-         <div type="page" facs="#sida1"> <!--div innebär här att det kommer en ny bild med text brevid-->
+         <div type="page" facs="#sida1"> <!--denna sida har redigerats för att matcha chatgpt xsl koden för indents-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
-               <lb/> <hi rend="indent">Vid grävning av en grav å <hi rend="underline">Nosaby kyrkogård, Willands härad</hi>, Kristianstads län,</hi>  
-               <lb/> den 22 okt 1921 stötte kyrkväktaren på <hi rend="underline">fyra  större lerkärl. 
+            </p>
+            <p>
+                <hi rend="indent">Vid grävning av en grav å <hi rend="underline">Nosaby kyrkogård, Willands härad</hi>, Kristianstads län,</hi>  
+                den 22 okt 1921 stötte kyrkväktaren på <hi rend="underline">fyra  större lerkärl. 
                   <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan</hi>.
             </p>
             
@@ -253,26 +255,21 @@
             </p>
          </div>
          
-         <div type="page" facs="#sida2">
+         <div type="page" facs="#sida2"> <!--denna sida har redigerats för att matcha chatgpt xsl koden för indents-->
             <p>
-               <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning</hi>    
-                  <lb/> åt norr av kyrkogården </hi> (övre delen av kart<lb rend="-"/>skissen på föregående sida).
+            <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning</hi>    
+               åt norr av kyrkogården</hi> 
+               (övre delen av kart<lb rend="-"/>skissen på föregående sida).
                <lb/> Marken består av grov, lös sand med inslag av svart, lerig jord 
-               <lb/> (denna senare dock troligen hitkommen i samband med upp<lb rend="-"/>läggningen av gravkullar och 
-               anord<lb rend="-"/>nandet av blomsterrabatter).
+               <lb/> (denna senare dock troligen hitkommen i samband med upp<lb rend="-"/>läggningen av gravkullar  
+               och anord<lb rend="-"/>nandet av blomsterrabatter).
                <lb/>Vid pla<lb rend="-"/>neringen av kyrkogården avlägsna<lb rend="-"/>des 
                ett mer än halvmetertjockt grus<lb rend="-"/>lager,
                <lb/>varför lerkärlen ursprungligen stått 110-130 cm under ytan.
-            </p>
-            
-            <p>
-               <hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning.</hi>  
-               <lb/>Emellertid utförde undertecknad den 6-7 okt 1922 en <hi rend="underline">efterundersökning</hi> på platsen.
-            </p>
-            
-            <p>
-               Då genomgrävdes och sållades jor<lb rend="-"/>den på ett område som sträckte sig 
-               <lb/>från kullen på den grav,vid vars grävning fyndet gjordes (i gravens norra vägg),
+               <lb/><hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning.</hi>  
+               Emellertid utförde undertecknad den 6-7 okt 1922 en <hi rend="underline">efterundersökning</hi> på platsen
+               <lb/><hi rend="indent"> Då genomgrävdes och sållades jor<lb rend="-"/>den på ett område som sträckte sig </hi>
+               från kullen på den grav,vid vars grävning fyndet gjordes (i gravens norra vägg),
                <lb/>och till närmast norr därom belägna gravkulle samt så djupt som ske kunde,
                <lb/>utan att kis<lb rend="-"/>torna skadades av spaden.
                <lb/>Sanden var mestadels rörd, men en smal vägg stod dock orörd kvar.
@@ -281,11 +278,10 @@
                de förut påträffade krukorna,
                <lb/> hitta<lb rend="-"/>des, eljest intet. Dessa lågo på olika höjd och plats inom det område,
                <lb/> som å skissen är betecknat med (tecknad fyrkant).
+                <lb/>Ett tjugotal meter norr om detta ställe har vid ett annat till- 
             </p>
-            
-            <p> 
-               Ett tjugotal meter norr om detta ställe har vid ett annat till- 
-            </p>
+      
+               
          </div>
          
          <div type="page" facs="#sida3">
@@ -300,41 +296,32 @@
             </p>
          </div>
          
-         <div type="page" facs="#sida4">
+         <div type="page" facs="#sida4"> <!--denna sida har redigerats för att matcha chatgpt xsl koden för indents-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
                <lb/>Detaljskiss av Kyrkogården.
                <lb/>Beskrivning av skiss: Skissen visar en ritning av kyrkogården där fynden hittats.
             </p>
             <p>
-               <hi rend="intend"><hi rend="underline">Tidigare fynd å platsen.</hi> </hi>
-               <lb/> <hi rend="intend">Vid grävning av en grav å <hi rend="underline">Nosaby Kyrkogård,Willands härad</hi>,Kristian<lb rend="-"/>stads län,</hi> 
-               <lb/> den 22 okt.1921 stötte kyrkväktaren på <hi rend="underline">4 större lerkärl</hi>.
+               <hi rend="indent"><hi rend="underline">Tidigare fynd å platsen.</hi> </hi>
+               <hi rend="indent">Vid grävning av en grav å <hi rend="underline">Nosaby Kyrkogård,Willands härad</hi>, Kristian<lb rend="-"/>stads län,</hi> 
+               den 22 okt.1921 stötte kyrkväktaren på <hi rend="underline">4 större lerkärl</hi>.
                <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan.
-            </p>
-            
-            <p>
-               <hi rend="intend">Fyndstället är beläget på  en <hi rend="underline">nyligen företagen ut<lb rend="-"/>vidgning</hi>
-                    <lb/>åt norr av  Kyrkogården</hi> (nedre delen av vidstående skiss).
+            <!-- tycks funka tillsmammans med undeline -->
+               <lb/> <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">nyligen företagen ut<lb rend="-"/>vidgning</hi>
+                    åt norr av  Kyrkogården</hi> (nedre delen av vidstående skiss).
                <lb/>Mar<lb rend="-"/>ken består av grov lös sand med inslag av svart,lerig jord 
-               <lb/>(denna senare dock hitkommen i samband med uppläggningen av gravkullar och anordnandet 
-               av blomsterrabatter).
+               <lb/>(denna senare dock hitkommen i samband med uppläggningen av gravkullar  
+               <lb/> och anordnandet av blomsterrabatter).
                <lb/>Vid planeringen av den nya kyrko<lb rend="-"/>gården avlägsnades ett mer än halvmeterstjockt grus<lb rend="-"/>lager
                <lb/> varför lerkärlen ursprungligen stått 110-130 cm under ytan
             </p>
-            
             <p>
                <hi rend="underline">Grävning.</hi>
-            </p>
-            
-            <p>
-               <hi rend="intend">Vid fyndtillfället verkställdes ingen undersökning. </hi>
+               <lb/> <hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning. </hi>
                Emel<lb rend="-"/>lertid utförde undertecknad den 6-7 okt. 1922 en efter<lb rend="-"/>undersökning på platsen.
-            </p>
-            
-            <p>
-               <hi rend="intend">Då genomgrävdes och sållades jorden på ett område som </hi>
-               <lb/>sträckte sig från kullen på den grav,
+               <hi rend="indent">Då genomgrävdes och sållades jorden på ett område som </hi>
+                sträckte sig från kullen på den grav,
                <lb/>vid vars grävning  fyndet gjordes ( i gravens norra vägg),
                <lb/>och till närmast 
             </p>

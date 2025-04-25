@@ -147,10 +147,21 @@
         <u>
             <xsl:apply-templates/>
         </u>
+    </xsl:template>   
+    
+
+    <!-- nedan är ett test från chat gpt --> 
+    
+    <xsl:output method="html" indent="yes"/>
+    
+    <!-- Template for <hi> elements with rend="indent" -->
+    <xsl:template match="tei:hi[@rend='indent']">
+        <div style="padding-left: 20px;">
+            <xsl:apply-templates select="node()"/>
+        </div>
     </xsl:template>
     
+  
     
-    
-
-
 </xsl:stylesheet>
+
