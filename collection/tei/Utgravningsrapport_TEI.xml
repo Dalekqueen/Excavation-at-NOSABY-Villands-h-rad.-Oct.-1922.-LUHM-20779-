@@ -242,17 +242,7 @@
                DETALJSKISS AV KYRKOGÅRDEN
                <lb/> Beskrivning av skiss: skissen visar en ritning av kyrkogården där fynden hittades
             </p>
-            
-            <p>
-               FYNDSTÄLLET
-               <lb/> NYARE UTVIDGNING 
-               <lb/> ÅT NORR AV KYRKOGÅRDEN.
-               <lb/>  UNGEFÄRLIG GRÄNS FÖR DEN ÄLDRE KYRKOGÅRDEN.
-               <lb/> ÄLDRE KYRKOGÅRD.
-               <lb/> 71,5 METER
-               <lb/> 16,4 METER
-               <lb/> KYRKO<lb rend="-"/>BYGGNADEN. <!--<lb rend="-"/> ersätter bindesteck-->
-            </p>
+           
          </div>
          
          <div type="page" facs="#sida2"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
