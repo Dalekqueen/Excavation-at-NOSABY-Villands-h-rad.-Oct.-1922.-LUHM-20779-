@@ -63,7 +63,9 @@
                                 <article id="beskrivning">
                                   <p>
                                     <strong>Beskrivning:</strong> &#160;
-                                    <xsl:apply-templates select="//tei:sourceDesc"/>
+                                    <xsl:apply-templates select="//tei:mscontents"/>
+                                      <xsl:value-of select="//tei:summary"/>
+                                     
                                   </p>
                                 </article>
                             </div>
@@ -79,6 +81,14 @@
                                         <strong>Transkribering av:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                       </p>
+                                        <p>  
+                                            <strong>institution:</strong><br/>
+                                            <xsl:apply-templates select="//tei:publicationStmt/tei:authority"/>
+                                      </p>
+                                        <p>  
+                                            <strong>Universitet:</strong><br/>
+                                            <xsl:apply-templates select="//tei:publicationStmt/tei:publisher"/>
+                                        </p>
                                     </article>
                                 </div>
                         </div>

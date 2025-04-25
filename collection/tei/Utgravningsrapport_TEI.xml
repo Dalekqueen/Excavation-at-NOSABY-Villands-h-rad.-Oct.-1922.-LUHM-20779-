@@ -37,20 +37,21 @@
          
          <sourceDesc>
             <msDesc>
-               <msIdentifier> <!-- hur döljer vi detta på hemsidan? -->
+               <msIdentifier> 
                   <settlement>Lund</settlement>
                   <institution>Lunds historiska museum </institution>
                </msIdentifier>
                <msContents>
                   <summary>
-                     Vid grävning av en grav på Nosaby kyrkogård, Willands härad, 
-                     Kristianstads län, den 22 okt. 1921 stötte kyrkväktaren på fyra 
+                     Transkribering av en utgrävningsrapport från Lunds historiska museums magasin. 
+                     Vid grävning av en grav på Nosaby kyrkogård, Villands härad, Kristianstads län, den 22 okt. 1921 stötte kyrkväktaren på fyra 
                      större lerkärl. Vid fyndtillfället verkställdes ingen undersökning. 
                      1922 gjorde Olof Källström en efter undersökning på platsen.
                      Det är efterundersökningen som har dokumenterats i det manuscript som transkriberas här.
+                     Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad samt bilagor i form av en karta
+                     och fyra fotografier.
                   </summary>
                   <msItem>
-                     <!-- hur döljer vi detta på hemsidan? -->
                      <author>Olof Källström</author>
                      <title>Grävning vid NOSABY, Villands härad. Okt. 1922. (LUHM 20779)</title>
                      <textLang>Svenska</textLang>
@@ -59,9 +60,6 @@
                <physDesc>
                   <objectDesc>
                      <!--Här tror jag vi eventuellt kan lägga metadata om bilderna såväl som information om manusciptet-->  
-                     <p>Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad samt bilagor i form av en karta
-                        och fyra fotografier.</p>
-                     <!-- Metadata som inte behöver synas på websidan, bör döljas i xsl istället? 
                         <p>
                         Rapporten fotograferades och bilderna bearbetades för optimal läsbarhet.
                         
@@ -91,7 +89,6 @@
                         Hur: På magasinet i ett fotorum.
                         Kamerainställningarna gjordes med hjälp av anställd som ansvarar för fotografering på magasinet.
                      </p>
-                     -->
                   </objectDesc>    
                </physDesc>
             </msDesc>
