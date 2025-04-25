@@ -28,7 +28,7 @@
          
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
-            <date>May 2025</date>
+            <date>Maj 2025</date>
             <authority>Lunds historiska museum</authority>
             <availability>
                <p><!--Kolla med lunds museum vad de anser?  --></p>
@@ -215,6 +215,7 @@
    
    <text> <!--Här börjar själva texten/transbriberingen-->
       <body>
+         
          <div type="page" facs="#forsattsblad"> <!--div innebär här att det kommer en  bild med text brevid-->
             <p> <!--p står för styckesindelning-->
                LUHM 20779

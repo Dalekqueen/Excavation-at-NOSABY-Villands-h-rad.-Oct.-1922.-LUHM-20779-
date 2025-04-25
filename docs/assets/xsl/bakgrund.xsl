@@ -3,16 +3,16 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-
+    
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
-       
+        
         <html lang="en" xml:lang="en">
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Bakgrund
+                    DCHM Template: Bilagor
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -35,14 +35,16 @@
                     <a href="transkribering.html">Transkribering</a> |
                     <a href="bilagor.html">Bilagor</a> |
                 </nav>
-                <main>
+                <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
-                            
+                            <div class="col-">
+                                <h3>Bilder</h3>
+                            </div>
                             <div class="col-md">
-                                <h3>Bakgrund</h3>
+                                <h3>Transkribering</h3>
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
@@ -97,20 +99,20 @@
             </body>
         </html>
     </xsl:template>
-
+    
     <!-- by default all text nodes are printed out, unless something else is defined.
     We don't want to show the metadata. So we write a template for the teiHeader that
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
     <xsl:template match="tei:teiHeader"/>
-
+    
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-
+    
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
@@ -118,8 +120,15 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
-    <!-- do not show del in toplayer transcription-->
+    
+    <!-- transform tei del into html del -->
+    <xsl:template match="tei:del">
+        <del>
+            <xsl:apply-templates/>
+        </del>
+    </xsl:template>
+    
+    <!-- transform tei add into html sup -->
     <xsl:template match="tei:hi[@rend = 'underline']">
         <u>
             <xsl:apply-templates/>
@@ -127,7 +136,7 @@
     </xsl:template>
     
     
-
+    
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
     <xsl:template match="tei:hi[@rend = 'u']">
@@ -135,5 +144,5 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
 </xsl:stylesheet>
