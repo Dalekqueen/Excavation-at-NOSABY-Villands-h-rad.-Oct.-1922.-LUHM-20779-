@@ -38,9 +38,9 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                        <!-- First row with two columns -->
                         <div class="row">
-                            <!-- First column -->
+                            
+                            <!-- First column with pictures-->
                             <div class="col-sm">
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface[position() mod 2 = 1 and tei:figure/tei:graphic[2]/@url != 'https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0']">
@@ -59,7 +59,7 @@
                                 </article>
                             </div>
                             
-                            <!-- Second column -->
+                            <!-- Second column with pictures-->
                             <div class="col-sm">
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface[position() mod 2 = 0]">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                         
-                        <!-- Second row with description -->
+                        <!-- third column with description and details-->
                         <div class="row">
                             <div class="col-sm">
                                 <article id="beskrivning">
@@ -91,8 +91,7 @@
                                 </article>
                             </div>
                         </div>
-                        
-                        <!-- Third row with details -->
+                       
                         <div class="row">
                             <div class="col-sm">
                                 <article id="details">
