@@ -3,16 +3,16 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-
+    
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
-       
+        
         <html lang="en" xml:lang="en">
             <head>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Bilagor
+                    DCHM Template: Transkribering
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -40,11 +40,11 @@
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
-                            <div class="col-">
+                            <div class="col-sm">
                                 <h3>Bilder</h3>
                             </div>
                             <div class="col-md">
-                                <h3>Transkribering</h3>
+                                <h3>Bilagor</h3>
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
@@ -53,10 +53,10 @@
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
-                                <div class="col-">
+                                <div class="col-sm">
                                     <article>
-                                        <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
-                                        <img class="thumbnail">
+                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                        <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect
@@ -71,7 +71,7 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[2]/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
@@ -83,7 +83,7 @@
                                     </article>
                                 </div>
                                 <!-- fill the second column with our transcription -->
-                                <div class='col-md'>
+                                <div class='col-sm'>
                                     <article class="transcription">
                                         <xsl:apply-templates/>                                      
                                     </article>
@@ -99,20 +99,27 @@
             </body>
         </html>
     </xsl:template>
-
+    
     <!-- by default all text nodes are printed out, unless something else is defined.
     We don't want to show the metadata. So we write a template for the teiHeader that
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
     <xsl:template match="tei:teiHeader"/>
-
+    
+    <xsl:template match="tei:lb">
+        <xsl:choose>
+            <xsl:when test="@rend"></xsl:when>
+            <xsl:otherwise><br/></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-
+    
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
@@ -120,29 +127,38 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
+    
     <!-- transform tei del into html del -->
     <xsl:template match="tei:del">
         <del>
             <xsl:apply-templates/>
         </del>
     </xsl:template>
-
+    
+    <!-- transform tei add into html sup -->
+    <xsl:template match="tei:add">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+    
     <!-- transform tei add into html sup -->
     <xsl:template match="tei:hi[@rend = 'underline']">
         <u>
             <xsl:apply-templates/>
         </u>
+    </xsl:template>   
+    
+    
+    <!-- nedan är en testkod --> 
+    
+    <!-- Template for <hi> elements with rend="indent" -->
+    <xsl:template match="tei:hi[@rend='indent']">
+        <div style="padding-left: 20px;">
+            <xsl:apply-templates select="node()"/>
+        </div>
     </xsl:template>
     
     
-
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <span style="text-decoration : underline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
+    
 </xsl:stylesheet>
