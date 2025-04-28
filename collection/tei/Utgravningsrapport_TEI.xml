@@ -45,7 +45,7 @@
                   <summary>
                      Detta är en digitaliserad version av en utgrävningsrapport från Lunds historiska museums magasin. 
                      Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
-                     Vid Vid grävning av en grav fann en kyrkväktare fyra större lerkärl.
+                     Vid grävning av en grav fann en kyrkväktare fyra större lerkärl.
                      Vid fyndtillfället verkställdes ingen undersökning. 
                      1922 gjorde Olof Källström en efter- undersökning av platsen.
                      Det är efterundersökningen som har dokumenterats i utgrävningsrapporten.
@@ -298,7 +298,7 @@
                <lb/>Okt.1922.
             </p>
          </div>
-         <div type="page" facs="#sida1"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
+         <div type="_transcription" facs="#sida1"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
             </p>
