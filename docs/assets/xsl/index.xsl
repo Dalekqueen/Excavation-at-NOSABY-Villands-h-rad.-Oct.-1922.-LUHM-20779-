@@ -35,15 +35,17 @@
                     <a href="transkribering.html">Transkribering</a> |
                     <a href="bilagor.html">Bilagor</a> |
                 </nav>
+                
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
+                        
+                        <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
-                            
-                            <!-- First column with pictures-->
+                            <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="collection">
-                                    <xsl:for-each select="//tei:surface[position() mod 2 = 1 and tei:figure/tei:graphic[2]/@url != 'https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0']">
+                                    <xsl:for-each select="//tei:surface[tei:figure/tei:graphic[2]/@url != 'https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0']">
                                         <img class="thumbnail">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
@@ -54,32 +56,13 @@
                                             <xsl:attribute name="alt">
                                                 <xsl:value-of select="tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
-                                        </img>                              
-                                    </xsl:for-each>
-                                </article>
-                            </div>
-                            
-                            <!-- Second column with pictures-->
-                            <div class="col-sm">
-                                <article id="collection">
-                                    <xsl:for-each select="//tei:surface[position() mod 2 = 0]">
-                                        <img class="thumbnail">
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                        </img>                              
+                                        </img>    
                                     </xsl:for-each>
                                 </article>
                             </div>
                         </div>
-                        
-                        <!-- third column with description and details-->
+                            
+                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                         <div class="row">
                             <div class="col-sm">
                                 <article id="beskrivning">
