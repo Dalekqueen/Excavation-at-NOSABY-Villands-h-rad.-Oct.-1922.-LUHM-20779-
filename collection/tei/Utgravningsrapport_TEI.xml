@@ -298,7 +298,7 @@
                <lb/>Okt.1922.
             </p>
          </div>
-         <div type="_transcription" facs="#sida1"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
+         <div type="page_transcription" facs="#sida1"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
             </p>
