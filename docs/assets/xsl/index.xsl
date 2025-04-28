@@ -82,7 +82,7 @@
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                       </p>
                                         <p>  
-                                            <strong>institution:</strong><br/>
+                                            <strong>Institution:</strong><br/>
                                             <xsl:apply-templates select="//tei:publicationStmt/tei:authority"/>
                                       </p>
                                         <p>  
