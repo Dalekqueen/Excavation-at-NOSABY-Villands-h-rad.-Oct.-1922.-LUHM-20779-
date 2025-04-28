@@ -48,7 +48,7 @@
                             
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page0']">
+                        <xsl:for-each select="//tei:div[@type='page_background']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">

@@ -231,7 +231,7 @@
    
    <text> <!--Här börjar själva texten/transbriberingen-->
       <body>
-         <div type="page0" facs="#olof"> <!--div innebär här att det kommer en bild med text brevid-->
+         <div type="page_background" facs="#olof"> <!--div innebär här att det kommer en bild med text brevid-->
             
             <head>Olof Källström</head> 
             
@@ -268,7 +268,7 @@
          </div>
          
          
-         <div type="page0" facs="#utgravningsplats"> 
+         <div type="page_background" facs="#utgravningsplats"> 
             
             <head>Villands härad</head>
             
@@ -288,7 +288,7 @@
             </p>     
          </div>
          
-         <div type="page" facs="#forsattsblad"> 
+         <div type="page_transcription" facs="#forsattsblad"> 
             <p>
                LUHM 20779
             </p>
@@ -315,7 +315,7 @@
            
          </div>
          
-         <div type="page" facs="#sida2"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
+         <div type="page_transcription" facs="#sida2"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
             <p>
             <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning</hi>    
                åt norr av kyrkogården</hi> 
@@ -344,7 +344,7 @@
                
          </div>
          
-         <div type="page" facs="#sida3">
+         <div type="page_transcription" facs="#sida3">
             <p>
                fälle hittats en mindre spjutspets av grå flinta, 
                <lb/> grovt tillhuggen och delvis oskadad.
@@ -356,7 +356,7 @@
             </p>
          </div>
          
-         <div type="page" facs="#sida4"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
+         <div type="page_transcription" facs="#sida4"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
                <lb/>Detaljskiss av Kyrkogården.
@@ -388,7 +388,7 @@
             </p>
          </div>
          
-         <div type="page" facs="#sida5">
+         <div type="page__transcription" facs="#sida5">
             <p>
                norr om belägna gravkulle samt så djupt som ske kunde,
                <lb/>utan att kistorna skadades av spaden. 
@@ -408,7 +408,7 @@
             </p>
          </div>
          
-         <div type="page0.1" facs="#kartskiss">
+         <div type="page_appendix" facs="#kartskiss">
             <p>
                BILAGA TILL REDOGÖRELSE FÖR GRÄVNING Å NOSABY KYRKOGÅRD DEN 6 OCH 7 OKT. 1922 MED ANLEDNING AV FYND AV STENÅLDERSKÄRL [INV.20779].
                
@@ -420,19 +420,19 @@
             </p>
          </div>
          
-         <div type="page0.1" facs="#lerkarl">
+         <div type="page_appendix" facs="#lerkarl">
             <p>
                Beskrivning: Fotografi på ett av de upphittade lerkärlen, fotograferat från två olika håll? 
             </p>
          </div>
          
-         <div type="page0.1" facs="#skarvor">
+         <div type="page_appendix" facs="#skarvor">
             <p>
                Beskrivning: Skärvor från de upphittade lerkärlen. 
             </p>
          </div>
          
-         <div type="page0.1" facs="#utgravningsplats">
+         <div type="page_appendix" facs="#utgravningsplats">
             <p>
                Beskrivning: Fotografi från utgrävningsplatsen.  
             </p>
