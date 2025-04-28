@@ -231,7 +231,7 @@
    
    <text> <!--Här börjar själva texten/transbriberingen-->
       <body>
-         <div type="page0" facs="#olof"> <!--div innebär här att det kommer en  bild med text brevid-->
+         <div type="page0" facs="#olof"> <!--div innebär här att det kommer en bild med text brevid-->
             
             <head>Olof Källström</head> 
             
@@ -239,16 +239,24 @@
                URI: https://libris.kb.se/fcrvz5pz582vp7s#it
             </p>
             <p>
-               Stig Olof (Olle) Erland Källström föddes i Malmö den 27 april 1900. Han studerade vid Lunds universitet 
-               <lb/>och mellan år 1922-1928 var han anställd som amanuens på Lunds universitets historiska museum (Gierow, 1940). 
-               <lb/>Det är vid denna tid som han utför undersökningen i Nosaby (egen anm.). Källström blev 1928 anställd som amanuens 
-               <lb/>vid Vitterhetsakademin. Han började arbeta på fornminnesavdelningen och sedan på Statens historiska museums medeltidsavdelning. 
-               <lb/>1939 blev Källström andre antikvarie på avdelningen för Medeltid och nyare tid. Han hade silversmide och regalier 
-               <lb/>som specialområden. Källström läste även vid Stockholms högskola och disputerade 1939 med avhandlingen 
+               Stig Olof (Olle) Erland Källström föddes i Malmö den 27 april 1900. 
+               <lb/>Han studerade vid Lunds universitet 
+               <lb/>och mellan år 1922-1928 var han anställd som amanuens 
+               <lb/>på Lunds universitets historiska museum (Gierow, 1940). 
+               <lb/>Det är vid denna tid som han utför undersökningen i Nosaby (egen anm.).
+               <lb/>Källström blev 1928 anställd som amanuens 
+               <lb/>vid Vitterhetsakademin. Han började arbeta på fornminnesavdelningen 
+               <lb/>och sedan på Statens historiska museums medeltidsavdelning. 
+               <lb/>1939 blev Källström andre antikvarie på avdelningen för Medeltid och nyare tid.
+               <lb/>Han hade silversmide och regalier 
+               <lb/>som specialområden. Källström läste även vid Stockholms högskola 
+               <lb/>och disputerade 1939 med avhandlingen 
                <lb/>“Medeltida kyrksilver från Sverige och Finland. Förlorat genom Gustaf Vasas konfiskationer”. 
-               <lb/>1954 blev Källström anställd som landsantikvarie i Gävleborgs län och intendent för Gävle museum. 
-               <lb/>1962 beslutade han sig för att lämna sin befattning för att istället kunna ägna sig helt åt sitt egen 
-               <lb/>forskningsprojekt om ett tyskt evangeliarium från 1000-talet. Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025).
+               <lb/>1954 blev Källström anställd som landsantikvarie i Gävleborgs län 
+               <lb/>och intendent för Gävle museum. 
+               <lb/>1962 beslutade han sig för att lämna sin befattning för att istället kunna 
+               <lb/>ägna sig helt åt sitt eget forskningsprojekt om ett tyskt evangeliarium från 1000-talet.
+               <lb/>Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025).
             </p>
             
             <p>
@@ -267,9 +275,14 @@
             <head>Villands härad</head>
             
             <p>
-               <lb/> Tidigare fanns härader i Götaland och Svealand, vilket innebar en uppdelning av olika rätts-och förvaltningsområden inom ett landskap. Huvudorganet var häradstinget, vilket leddes av en häradshövding. 
-               <lb/>Häradsrätterna avskaffades 1971. (Ne.se, sökord: härad). Villands härad är beläget i nordöstra Skåne, mellan Immeln och Hanöbukten. Villands härad har gott om skog och sjöar, och bördig jord. 
-               <lb/>Man tror att Villands härad betyder “häradet kring sjön”. Tinget fanns i Fjälkinge (Ne.se, sökord: Villands härad). 
+                Tidigare fanns härader i Götaland och Svealand, vilket innebar en uppdelning av olika 
+               <lb/>rätts-och förvaltningsområden inom ett landskap. Huvudorganet var häradstinget, 
+               <lb/>vilket leddes av en häradshövding. 
+               <lb/>Häradsrätterna avskaffades 1971. (Ne.se, sökord: härad). 
+               <lb/>Villands härad är beläget i nordöstra Skåne, mellan Immeln och Hanöbukten. 
+               <lb/>Villands härad har gott om skog och sjöar, och bördig jord. 
+               <lb/>Man tror att Villands härad betyder “häradet kring sjön”. 
+               <lb/>Tinget fanns i Fjälkinge (Ne.se, sökord: Villands härad). 
             </p>
             
             <p>
@@ -399,7 +412,7 @@
             </p>
          </div>
          
-         <div type="page" facs="#kartskiss">
+         <div type="page0.1" facs="#kartskiss">
             <p>
                BILAGA TILL REDOGÖRELSE FÖR GRÄVNING Å NOSABY KYRKOGÅRD DEN 6 OCH 7 OKT. 1922 MED ANLEDNING AV FYND AV STENÅLDERSKÄRL [INV.20779].
                
@@ -411,19 +424,19 @@
             </p>
          </div>
          
-         <div type="page" facs="#lerkarl">
+         <div type="page0.1" facs="#lerkarl">
             <p>
                Beskrivning: Fotografi på ett av de upphittade lerkärlen, fotograferat från två olika håll? 
             </p>
          </div>
          
-         <div type="page" facs="#skarvor">
+         <div type="page0.1" facs="#skarvor">
             <p>
                Beskrivning: Skärvor från de upphittade lerkärlen. 
             </p>
          </div>
          
-         <div type="page" facs="#utgravningsplats">
+         <div type="page0.1" facs="#utgravningsplats">
             <p>
                Beskrivning: Fotografi från utgrävningsplatsen.  
             </p>
