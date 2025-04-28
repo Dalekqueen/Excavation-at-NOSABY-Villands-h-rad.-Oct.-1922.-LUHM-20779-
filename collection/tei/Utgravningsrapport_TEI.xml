@@ -43,12 +43,13 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     Transkribering av en utgrävningsrapport från Lunds historiska museums magasin. 
-                     Vid grävning av en grav på Nosaby kyrkogård, Villands härad, Kristianstads län, den 22 okt. 1921 stötte kyrkväktaren på fyra 
-                     större lerkärl. Vid fyndtillfället verkställdes ingen undersökning. 
-                     1922 gjorde Olof Källström en efter undersökning på platsen.
-                     Det är efterundersökningen som har dokumenterats i det manuscript som transkriberas här.
-                     Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad samt bilagor i form av en karta
+                     Detta är en digitaliserad version av en utgrävningsrapport från Lunds historiska museums magasin. 
+                     Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
+                     Vid utgrävningen fann en kyrkväktare fyra större lerkärl.
+                     Vid fyndtillfället verkställdes ingen undersökning. 
+                     1922 gjorde Olof Källström en efter undersökning av platsen.
+                     Det är efterundersökningen som har dokumenterats i utgrävningsrapporten.
+                     Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4 sidor, inklusive försättsblad, samt bilagor i form av en karta
                      och fyra fotografier.
                   </summary>
                   <msItem>
@@ -61,7 +62,7 @@
                   <objectDesc>
                      <!--Här tror jag vi eventuellt kan lägga metadata om bilderna såväl som information om manusciptet-->  
                         <p>
-                        Rapporten fotograferades och bilderna bearbetades för optimal läsbarhet.
+                        Rapporten fotograferades och fotografierna redigerades i efterhand för optimal läsbarhet.
                         
                         Teknisk (information om bildfångstenheten)
                         Kamera: NIKON D7100
@@ -98,7 +99,7 @@
       
       <profileDesc>
          <handNotes>
-            <handNote>Original text skriven i grå blyerts, av Olof Källström.</handNote>
+            <handNote>Ursprunglig text skriven i grå blyerts, av Olof Källström.</handNote>
          </handNotes>
          <creation>
             <date>oktober 1922</date>
@@ -116,7 +117,10 @@
             <figure>
                <label>Olof Källström</label>
                <figDesc>
-                  Ett fotografi på Olof Källström taget av....
+                   Fotografi på Olof Källström, hämtat från digitalt museum.se. 
+                   Motiv: Sjöfartsutställning på Gävle museum 1957. Museichef Olle Källström. 
+                   Institution: Arkiv Gävleborg
+                   Arkivreferenser: Ingår i arkivnr: 5961, Fotograf: Lennart Olofsson/Foto-Kalle.
                </figDesc>
                <graphic xml:id="olof_full" url="https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0"/>
                <graphic xml:id="olof_thumb" url="https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0"/>
@@ -127,7 +131,7 @@
          <figure>
             <label>Försättsbladet på rapporten</label>
             <figDesc>
-               Ett foto på rapportens Försättsblad.
+               Rapportens försättsblad.
             </figDesc>
             <graphic xml:id="forsattsblad_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_full.jpg"/>
             <graphic xml:id="forsatttsblad_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_thumb.jpg"/>
@@ -137,7 +141,7 @@
          <figure>
             <label>Första sidan av rapporten</label>
             <figDesc> 
-               Ett fotografi på första sidan av rapporten
+               Rapportens första sida
             </figDesc>
             <graphic xml:id="sida1_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_1_full.jpg"/>
             <graphic xml:id="sida1_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_1_thumb.jpg"/>
@@ -147,7 +151,7 @@
                <figure>
                   <label>Andra sidan av rapporten</label>
                   <figDesc> 
-                     Ett fotografi på andra sidan av rapporten
+                     Rapportens andra sida
                   </figDesc>
                   <graphic xml:id="sida2_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_2_full.jpg"/>
                   <graphic xml:id="sida2_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_2_thumb.jpg"/>
@@ -157,7 +161,7 @@
          <figure>
             <label>Tredje sidan av rapporten</label>
             <figDesc> 
-               Ett fotografi på tredje sidan av rapporten
+               Rapportens tredje sida
             </figDesc>
             <graphic xml:id="sida3_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_3_full.jpg"/>
             <graphic xml:id="sida3_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_3_thumb.jpg"/>
@@ -167,7 +171,7 @@
          <figure>
             <label>Fjärde sidan av rapporten</label>
             <figDesc> 
-               Ett fotografi på fjärde sidan av rapporten
+               Rapportens fjärde sida
             </figDesc>
             <graphic xml:id="sida4_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_4_full.jpg"/>
             <graphic xml:id="sida4_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_4_thumb.jpg"/>
@@ -177,7 +181,7 @@
          <figure>
             <label>Femte sidan av rapporten</label>
             <figDesc> 
-               Ett fotografi på femte sidan av rapporten
+               Rapportens femte sida
             </figDesc>
             <graphic xml:id="sida5_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_5_full.jpg"/>
             <graphic xml:id="sida5_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_5_thumb.jpg"/>
@@ -187,7 +191,7 @@
          <figure>
             <label>Kartskiss</label>
             <figDesc> 
-               Ett fotografi på en kartskiss
+               En kartskiss över Nosaby kyrkas läge i förhållande till omgivande sjöar
             </figDesc>
                         <graphic xml:id="kartskiss_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Kartskiss_full.jpg"/>
                         <graphic xml:id="kartskiss_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Kartskiss_thumb.jpg"/>
@@ -197,7 +201,7 @@
          <figure>
             <label>Lerkärl</label>
             <figDesc> 
-               Ett foto på ett fotografi på 2 lerkärl
+               Ett fotografi av två lerkärl?
             </figDesc>
             <graphic xml:id="lerkarl_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_full.jpg"/>
             <graphic xml:id="lerkarl_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_thumb.jpg"/>
@@ -207,7 +211,7 @@
          <figure>
             <label>Skärvor</label>
             <figDesc> 
-               Ett foto på ett fotografi på skärvor från lerkärlen
+               Ett  fotografi av skärvor från lerkärlen
             </figDesc>
             <graphic xml:id="skarvor_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Skarvor_full.jpg"/>
             <graphic xml:id="skarvor_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Skarvor_thumb.jpg"/>
@@ -217,7 +221,7 @@
          <figure>
             <label>Utgravningsplats</label>
             <figDesc> 
-               Ett foto på ett fotografi på 2 lerkärl
+               Ett  fotografi av utgrävningsplatsen
             </figDesc>
             <graphic xml:id="utgravningsplats_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_full.jpg"/>
             <graphic xml:id="utgravningsplats_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_thumb.jpg"/>
@@ -229,49 +233,66 @@
       <body>
          <div type="page0" facs="#olof"> <!--div innebär här att det kommer en  bild med text brevid-->
             
-               <head>Olof Källström</head> 
-      
-               <p> <!--p står för styckesindelning-->
-                  URI: https://libris.kb.se/fcrvz5pz582vp7s#it
-                  </p>
-               <p>
+            <head>Olof Källström</head> 
+            
+            <p> <!--p står för styckesindelning-->
+               URI: https://libris.kb.se/fcrvz5pz582vp7s#it
+            </p>
+            <p>
                Stig Olof (Olle) Erland Källström föddes i Malmö den 27 april 1900. Han studerade vid Lunds universitet 
                <lb/>och mellan år 1922-1928 var han anställd som amanuens på Lunds universitets historiska museum (Gierow, 1940). 
                <lb/>Det är vid denna tid som han utför undersökningen i Nosaby (egen anm.). Källström blev 1928 anställd som amanuens 
-                <lb/>vid Vitterhetsakademin. Han började arbeta på fornminnesavdelningen och sedan på Statens historiska museums medeltidsavdelning. 
-                  <lb/>1939 blev Källström andre antikvarie på avdelningen för Medeltid och nyare tid. Han hade silversmide och regalier 
-                  <lb/>som specialområden. Källström läste även vid Stockholms högskola och disputerade 1939 med avhandlingen 
-                  <lb/>“Medeltida kyrksilver från Sverige och Finland. Förlorat genom Gustaf Vasas konfiskationer”. 
-                  <lb/>1954 blev Källström anställd som landsantikvarie i Gävleborgs län och intendent för Gävle museum. 
-                  <lb/>1962 beslutade han sig för att lämna sin befattning för att istället kunna ägna sig helt åt sitt egen 
-                  <lb/>forskningsprojekt om ett tyskt evangeliarium från 1000-talet. Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025).
-               </p>
-           
-               <p>
+               <lb/>vid Vitterhetsakademin. Han började arbeta på fornminnesavdelningen och sedan på Statens historiska museums medeltidsavdelning. 
+               <lb/>1939 blev Källström andre antikvarie på avdelningen för Medeltid och nyare tid. Han hade silversmide och regalier 
+               <lb/>som specialområden. Källström läste även vid Stockholms högskola och disputerade 1939 med avhandlingen 
+               <lb/>“Medeltida kyrksilver från Sverige och Finland. Förlorat genom Gustaf Vasas konfiskationer”. 
+               <lb/>1954 blev Källström anställd som landsantikvarie i Gävleborgs län och intendent för Gävle museum. 
+               <lb/>1962 beslutade han sig för att lämna sin befattning för att istället kunna ägna sig helt åt sitt egen 
+               <lb/>forskningsprojekt om ett tyskt evangeliarium från 1000-talet. Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025).
+            </p>
+            
+            <p>
                Referenser
                
-               <lb/>Gierow, K. (1940). Skåningar i Stockholm. [Elektronisk resurs] / med en inledning: Skåningar i Stockholm i gången tid. Skånetryckeriets förlag, Malmö.
+               Gierow, K. (1940). Skåningar i Stockholm. [Elektronisk resurs] / med en inledning: Skåningar i Stockholm i gången tid. Skånetryckeriets förlag, Malmö.
                
-               <lb/>Länk till Riksarkivet: https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m&amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_facet%24Ej+fastst%c3%a4lld%3a&amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv
+               <lb/> Länk till Riksarkivet: https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m&amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_facet%24Ej+fastst%c3%a4lld%3a&amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv
                
             </p>
-            </div>
+         </div>
+         
          <div type="page0">
             
-               <head>Villands härad</head>
+            <head>Villands härad</head>
             
-               <p>
-               Tidigare fanns härader i Götaland och Svealand, vilket innebar en uppdelning av olika rätts-och förvaltningsområden inom ett landskap. 
-               <lb/>Huvudorganet var häradstinget, vilket leddes av en häradshövding. Häradsrätterna avskaffades 1971. (Ne.se, sökord: härad). 
-                  <lb/>Villands härad är beläget i nordöstra Skåne, mellan Immeln och Hanöbukten. Villands härad har gott om skog och sjöar, och bördig jord. 
-                  <lb/>Man tror att Villands härad betyder “häradet kring sjön”. Tinget fanns i Fjälkinge (Ne.se, sökord: Villands härad). 
-               </p>
-                       
-               <p>
+            <p>
+               <lb/> Tidigare fanns härader i Götaland och Svealand, vilket innebar en uppdelning av olika rätts-och förvaltningsområden inom ett landskap. Huvudorganet var häradstinget, vilket leddes av en häradshövding. 
+               <lb/>Häradsrätterna avskaffades 1971. (Ne.se, sökord: härad). Villands härad är beläget i nordöstra Skåne, mellan Immeln och Hanöbukten. Villands härad har gott om skog och sjöar, och bördig jord. 
+               <lb/>Man tror att Villands härad betyder “häradet kring sjön”. Tinget fanns i Fjälkinge (Ne.se, sökord: Villands härad). 
+            </p>
+            
+            <p>
                Referenser
                https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/h%C3%A4rad?isSearchResult=true
                https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/villands-h%C3%A4rad?isSearchResult=true
-               </p>     
+            </p>     
+         </div>
+         
+         <div type="page0">
+            
+            <head>Villands härad</head>
+            
+            <p>
+               <lb/> Tidigare fanns härader i Götaland och Svealand, vilket innebar en uppdelning av olika rätts-och förvaltningsområden inom ett landskap. Huvudorganet var häradstinget, vilket leddes av en häradshövding. 
+               <lb/>Häradsrätterna avskaffades 1971. (Ne.se, sökord: härad). Villands härad är beläget i nordöstra Skåne, mellan Immeln och Hanöbukten. Villands härad har gott om skog och sjöar, och bördig jord. 
+               <lb/>Man tror att Villands härad betyder “häradet kring sjön”. Tinget fanns i Fjälkinge (Ne.se, sökord: Villands härad). 
+            </p>
+            
+            <p>
+               Referenser
+               https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/h%C3%A4rad?isSearchResult=true
+               https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/villands-h%C3%A4rad?isSearchResult=true
+            </p>     
          </div>
          
          <div type="page" facs="#forsattsblad"> 
