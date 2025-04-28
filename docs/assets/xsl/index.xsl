@@ -33,7 +33,7 @@
                     <a href="index.html">Hem</a> |
                     <a href="bakgrund.html">Bakgrund</a> |
                     <a href="transkribering.html">Transkribering</a> |
-                    <a href="bilagor.html">Bilagor</a> |
+                    <a href="bilagor.html">Bilagor i rapport</a> |
                 </nav>
                 
                 <main id="manuscript">
