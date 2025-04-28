@@ -262,7 +262,7 @@
          </div>
          
          
-         <div type="page0">
+         <div type="page0" facs="#olof"> 
             
             <head>Villands härad</head>
             
@@ -279,7 +279,7 @@
             </p>     
          </div>
          
-         <div type="page" facs="#forsattsblad"> 
+         <div type="page0" facs="#utgravningsplats"> 
             <p>
                LUHM 20779
             </p>
