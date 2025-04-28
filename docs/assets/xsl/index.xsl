@@ -38,63 +38,86 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                    <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        <!-- First row with two columns -->
                         <div class="row">
-                            <!-- first column: load the image based on the IIIF link in the graphic above -->
+                            <!-- First column -->
                             <div class="col-sm">
                                 <article id="collection">
-                                    <xsl:for-each select="//tei:surface">
+                                    <xsl:for-each select="//tei:surface[position() mod 2 = 1 and tei:figure/tei:graphic[2]/@url != 'https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0']">
                                         <img class="thumbnail">
-                                         <xsl:attribute name="src">
-                                             <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
-                                         </xsl:attribute>
-                                         <xsl:attribute name="title">
-                                             <xsl:value-of select="tei:figure/tei:label"/>
-                                         </xsl:attribute>
-                                         <xsl:attribute name="alt">
-                                             <xsl:value-of select="tei:figure/tei:figDesc"/>
-                                         </xsl:attribute>
-                                     </img>                              
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                        </img>                              
                                     </xsl:for-each>
                                 </article>
                             </div>
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                            
+                            <!-- Second column -->
                             <div class="col-sm">
-                                <article id="beskrivning">
-                                  <p>
-                                    <strong>Beskrivning:</strong> &#160;
-                                    <xsl:apply-templates select="//tei:mscontents"/>
-                                      <xsl:value-of select="//tei:summary"/>
-                                     
-                                  </p>
+                                <article id="collection">
+                                    <xsl:for-each select="//tei:surface[position() mod 2 = 0]">
+                                        <img class="thumbnail">
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                        </img>                              
+                                    </xsl:for-each>
                                 </article>
                             </div>
                         </div>
+                        
+                        <!-- Second row with description -->
                         <div class="row">
-                                <div class="col-sm">
-                                    <article id="details">
-                                      <p>
+                            <div class="col-sm">
+                                <article id="beskrivning">
+                                    <p>
+                                        <strong>Beskrivning:</strong> &#160;
+                                        <xsl:apply-templates select="//tei:mscontents"/>
+                                        <xsl:value-of select="//tei:summary"/>
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                        
+                        <!-- Third row with details -->
+                        <div class="row">
+                            <div class="col-sm">
+                                <article id="details">
+                                    <p>
                                         <strong>Författare:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
-                                      </p>
-                                      <p>
+                                    </p>
+                                    <p>
                                         <strong>Transkribering av:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
-                                      </p>
-                                        <p>  
-                                            <strong>Institution:</strong><br/>
-                                            <xsl:apply-templates select="//tei:publicationStmt/tei:authority"/>
-                                      </p>
-                                        <p>  
-                                            <strong>Universitet:</strong><br/>
-                                            <xsl:apply-templates select="//tei:publicationStmt/tei:publisher"/>
-                                            <p>
-                                                <strong>Datum:</strong><br/>
-                                            <xsl:apply-templates select="//tei:publicationStmt/tei:date"/>
-                                            </p>
-                                        </p>
-                                    </article>
-                                </div>
+                                    </p>
+                                    <p>  
+                                        <strong>Institution:</strong><br/>
+                                        <xsl:apply-templates select="//tei:publicationStmt/tei:authority"/>
+                                    </p>
+                                    <p>  
+                                        <strong>Universitet:</strong><br/>
+                                        <xsl:apply-templates select="//tei:publicationStmt/tei:publisher"/>
+                                    </p>
+                                    <p>
+                                        <strong>Datum:</strong><br/>
+                                        <xsl:apply-templates select="//tei:publicationStmt/tei:date"/>
+                                    </p>
+                                </article>
+                            </div>
                         </div>
                     </div>
                 </main>
