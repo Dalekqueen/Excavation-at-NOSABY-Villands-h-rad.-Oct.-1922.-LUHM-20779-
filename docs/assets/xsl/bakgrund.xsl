@@ -50,11 +50,10 @@
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
-                                <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                                <xsl:for-each select="//tei:div[@type='page0.1']">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
                                     <article>
+                                        
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                         <img class="img-2">
                                             <!-- give this HTML <img> attribute three more attributes:
