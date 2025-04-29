@@ -235,7 +235,7 @@
          <figure>
             <label>Utgrävningsplats</label>
             <figDesc> 
-               Ett  fotografi av utgrävningsplatsen
+               Ett fotografi av utgrävningsplatsen
             </figDesc>
             <graphic xml:id="utgravningsplats_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_full.jpg"/>
             <graphic xml:id="utgravningsplats_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_thumb.jpg"/>
@@ -250,7 +250,7 @@
             <head>Olof Källström</head> 
             
             <p> <!--p står för styckesindelning-->
-               URI: https://libris.kb.se/fcrvz5pz582vp7s#it
+               <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
             </p>
             <p>
                Stig Olof (Olle) Erland Källström föddes i Malmö den 27 april 1900. 
@@ -276,17 +276,18 @@
                Referenser
                
                Gierow, K. (1940). Skåningar i Stockholm. [Elektronisk resurs] / 
-               <lb/> med en inledning: Skåningar i Stockholm i gången tid. 
-               <lb/> Skånetryckeriets förlag, Malmö. Länk till Riksarkivet: 
-               <lb/> https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m
-               <lb/>&amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_
-               <lb/>facet%24Ej+fastst%c3%a4lld%3a
-               <lb/>&amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv
+                med en inledning: Skåningar i Stockholm i gången tid. 
+               Skånetryckeriets förlag, Malmö: 
+               <ref target=" https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m
+                  &amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_
+                  facet%24Ej+fastst%c3%a4lld%3a
+                  &amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv">Länk till Riksarkivet</ref>
+              
                
             </p>
             <p>
                <!--blir snyggare utan linebreaks...-->
-            Fotografi på Olof Källström, hämtat från digitalt museum.se. 
+               Fotografi på Olof Källström, hämtat från <ref target="https://digitaltmuseum.se">Digitalt museum</ref>. 
             Motiv: Sjöfartsutställning på Gävle museum 1957. Museichef Olle Källström. 
             Institution: Arkiv Gävleborg
             Arkivreferenser: Ingår i arkivnr: 5961, Fotograf: Lennart Olofsson/Foto-Kalle. 
@@ -309,8 +310,9 @@
             
             <p>
                Referenser
-               <lb/>https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/h%C3%A4rad?isSearchResult=true
-               <lb/>https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/villands-h%C3%A4rad?isSearchResult=true
+               <lb/> <ref target="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/h%C3%A4rad?isSearchResult=true">NE Härad</ref>
+               <lb/> <ref target="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/villands-h%C3%A4rad?isSearchResult=true">NE Villands Härad</ref>
+               
             </p>     
          </div>
          

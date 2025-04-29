@@ -142,4 +142,11 @@
     </xsl:template>
     
     
+    <!-- failed attempt to make weblinks work -->
+    <xsl:template match="ref">
+        <a href="{@target}">
+            <xsl:value-of select="."/>
+        </a>
+    </xsl:template>
+    
 </xsl:stylesheet>
