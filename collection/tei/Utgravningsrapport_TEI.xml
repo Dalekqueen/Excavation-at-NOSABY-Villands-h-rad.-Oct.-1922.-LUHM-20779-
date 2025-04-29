@@ -229,7 +229,7 @@
       </surface>
    </facsimile>
    
-   <text> <!--Här börjar själva texten/transbriberingen-->
+   <text> <!--Här börjar själva texten/transkriberingen-->
       <body>
          <div type="page_background" facs="#olof"> <!--div innebär här att det kommer en bild med text brevid-->
             
