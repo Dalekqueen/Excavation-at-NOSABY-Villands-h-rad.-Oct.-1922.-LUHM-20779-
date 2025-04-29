@@ -68,10 +68,14 @@
                             <div class="col-sm-6">
                                 <article id="beskrivning">
                                     <p>
-                                        <strong>Beskrivning:</strong> &#160;
-                                        <xsl:apply-templates select="//tei:mscontents"/>
-                                        <xsl:value-of select="//tei:summary"/>
+                                        <strong>Om projektet:</strong> &#160;
+                                        <xsl:value-of select="//tei:projectDesc"/>
                                     </p>
+                                    <!--only in this document no correlation in TEI-->
+                                    <p class="text-special"><strong>Besök gärna projektets GitHub:</strong></p>
+                                    <p class="text-special"><a target="_blank" href="https://github.com/Dalekqueen/Excavation-at-NOSABY-Villands-h-rad.-Oct.-1922.-LUHM-20779-/blob/main/docs/assets/xsl/index.xsl">
+                                        Se allt material här
+                                    </a></p>
                                 </article>
                             </div>
                         </div>
@@ -100,11 +104,7 @@
                                         <strong>Datum:</strong><br/>
                                         <xsl:apply-templates select="//tei:publicationStmt/tei:date"/>
                                     </p>
-                                    <!--only in this document no correlation in TEI-->
-                                    <p class="text-special"><strong>Besök gärna projektets GitHub:</strong></p>
-                                    <p class="text-special"><a target="_blank" href="https://github.com/Dalekqueen/Excavation-at-NOSABY-Villands-h-rad.-Oct.-1922.-LUHM-20779-/blob/main/docs/assets/xsl/index.xsl">
-                                        Se allt material här
-                           </a></p>
+                                  
                                 </article>
                             </div>
                         </div>
