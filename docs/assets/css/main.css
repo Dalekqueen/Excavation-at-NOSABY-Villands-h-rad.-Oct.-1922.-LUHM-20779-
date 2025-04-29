@@ -90,18 +90,12 @@ h3 {
             max-width: calc(53rem - 3em);
         }
 
+
 #details {
     padding: 2vw;
     margin: 1vw;
     text-align: center;    
 }
-
-footer {
-    border-top: 1px solid black;
-    padding-top: 1vw;
-    margin-top: 1vw;
-}
-
 
 
 .row {

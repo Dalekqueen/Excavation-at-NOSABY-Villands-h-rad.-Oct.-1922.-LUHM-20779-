@@ -149,16 +149,14 @@
     </xsl:template>   
     
 
-    <!-- nedan är en testkod --> 
-    
-    <!-- Template for <hi> elements with rend="indent" -->
+    <!-- template for indent -->
     <xsl:template match="tei:hi[@rend='indent']">
         <div style="padding-left: 20px;">
             <xsl:apply-templates select="node()"/>
         </div>
     </xsl:template>
-    
   
+    
     
 </xsl:stylesheet>
 

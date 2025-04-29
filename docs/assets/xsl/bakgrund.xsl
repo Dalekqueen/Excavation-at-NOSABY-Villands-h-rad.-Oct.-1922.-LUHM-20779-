@@ -141,7 +141,5 @@
         </sup>
     </xsl:template>
     
-   
-    
     
 </xsl:stylesheet>
