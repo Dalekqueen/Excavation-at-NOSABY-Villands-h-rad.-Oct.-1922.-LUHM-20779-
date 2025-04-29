@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-
+    
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
         
@@ -39,13 +39,27 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                        
-                        <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
+                            <div class="col-sm">
+                                
+                            </div>
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="collection">
-                                    <xsl:for-each select="//tei:surface[tei:figure/tei:graphic[2]/@url != 'https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0']">
+                                    <xsl:for-each select="//tei:surface[
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/IMG_1248_thumb.png') and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Forsattsblad_thumb.jpg')and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_1_thumb.jpg') and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_2_thumb.jpg') and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_3_thumb.jpg')and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_4_thumb.jpg') and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Sida_5_thumb.jpg') and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_thumb.jpg')and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Skarvor_thumb.jpg') and
+                                        not(tei:figure/tei:graphic[2]/@url = 'assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_Utgravningsplats_thumb.jpg')
+                                        ]">
+                                        
                                         <img class="thumbnail">
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
@@ -61,8 +75,8 @@
                                 </article>
                             </div>
                         </div>
-                            
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                        
+                        <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                         <div class="row">
                             <div class="col-sm">
                                 <article id="beskrivning">
@@ -74,7 +88,7 @@
                                 </article>
                             </div>
                         </div>
-                       
+                        
                         <div class="row">
                             <div class="col-sm">
                                 <article id="details">

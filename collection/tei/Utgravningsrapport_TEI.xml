@@ -122,8 +122,8 @@
                    Institution: Arkiv Gävleborg
                    Arkivreferenser: Ingår i arkivnr: 5961, Fotograf: Lennart Olofsson/Foto-Kalle.
                </figDesc>
-               <graphic xml:id="Olof_full" url="https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0"/>
-               <graphic xml:id="Olof_thumb" url="https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom/media?slide=0"/>
+               <graphic xml:id="olof_full" url="assets/img/documents/IMG_1248_kopia.png"/>
+               <graphic xml:id="olof_thumb" url="assets/img/documents/IMG_1248_thumb.png"/>
             </figure>
          </surface>
       
@@ -240,29 +240,34 @@
             </p>
             <p>
                Stig Olof (Olle) Erland Källström föddes i Malmö den 27 april 1900. 
-               <lb/>Han studerade vid Lunds universitet och mellan år 1922-1928 var han anställd som amanuens 
-               <lb/> på Lunds universitets historiska museum (Gierow, 1940).
+               <lb/>Han studerade vid Lunds universitet och mellan år 1922-1928 var han 
+               <lb/> anställd som amanuens på Lunds universitets historiska museum (Gierow, 1940). 
                <lb/> Det är vid denna tid som han utför undersökningen i Nosaby (egen anm.).
                <lb/> Källström blev 1928 anställd som amanuens vid Vitterhetsakademin.  
-               <lb/> Han började arbeta på fornminnesavdelningen och sedan på Statens historiska museums medeltidsavdelning. 
-               <lb/> 1939 blev Källström andre antikvarie på avdelningen för Medeltid och nyare tid.
-               <lb/> Han hade silversmide och regalier som specialområden. Källström läste även vid Stockholms högskola
-               <lb/> och disputerade 1939 med avhandlingen “Medeltida kyrksilver från Sverige och Finland. 
-               <lb/> Förlorat genom Gustaf Vasas konfiskationer”. 
-               <lb/> 1954 blev Källström anställd som landsantikvarie i Gävleborgs län och intendent för Gävle museum. 
-               <lb/> 1962 beslutade han sig för att lämna sin befattning för att istället kunna ägna sig helt 
-               <lb/> åt sitt eget forskningsprojekt m ett tyskt evangeliarium från 1000-talet.
-               <lb/> o Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025).
+               <lb/> Han började arbeta på fornminnesavdelningen och sedan på Statens 
+               <lb/> historiska museums medeltidsavdelning. 1939 blev Källström
+               <lb/> andre antikvarie på avdelningen för Medeltid och nyare tid.
+               <lb/> Han hade silversmide och regalier som specialområden.
+               <lb/> Källström läste även vid Stockholms högskola och disputerade 1939
+               <lb/> med avhandlingen “Medeltida kyrksilver från Sverige och Finland. 
+               <lb/> Förlorat genom Gustaf Vasas konfiskationer”. 1954 blev Källström anställd 
+               <lb/> som landsantikvarie i Gävleborgs län och intendent för Gävle museum. 1962 beslutade
+               <lb/> han sig för att lämna sin befattning för att istället kunna ägna sig helt åt 
+               <lb/> sitt eget forskningsprojekt om ett tyskt  evangeliarium från 1000-talet. 
+               <lb/> Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025)
               
             </p>
             
             <p>
                Referenser
                
-               Gierow, K. (1940). Skåningar i Stockholm. [Elektronisk resurs] / med en inledning: Skåningar i Stockholm i gången tid. 
+               Gierow, K. (1940). Skåningar i Stockholm. [Elektronisk resurs] / 
+               <lb/> med en inledning: Skåningar i Stockholm i gången tid. 
                <lb/> Skånetryckeriets förlag, Malmö. Länk till Riksarkivet: 
-               <lb/> https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m&amp;AvanceradSok=True&amp;
-               <lb/>FacettFilter=arkis_aukt_huvudkategori_facet%24Ej+fastst%c3%a4lld%3a&amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv
+               <lb/> https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m
+               <lb/>&amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_
+               <lb/>facet%24Ej+fastst%c3%a4lld%3a
+               <lb/>&amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv
                
             </p>
          </div>
