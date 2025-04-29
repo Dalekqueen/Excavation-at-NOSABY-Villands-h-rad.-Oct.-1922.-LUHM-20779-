@@ -86,7 +86,7 @@
                                         <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                     </p>
                                     <p>
-                                        <strong>Transkribering av:</strong><br/>
+                                        <strong>Digitaliserat av:</strong><br/>
                                         <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                     </p>
                                     <p>  
@@ -101,6 +101,10 @@
                                         <strong>Datum:</strong><br/>
                                         <xsl:apply-templates select="//tei:publicationStmt/tei:date"/>
                                     </p>
+                                    
+                                    <p class="text-special"><strong>Besök gärna projektets GitHub:</strong></p>
+                                    <p class="text-special"><a target="_blank" href="https://github.com/Dalekqueen/Excavation-at-NOSABY-Villands-h-rad.-Oct.-1922.-LUHM-20779-/blob/main/docs/assets/xsl/index.xsl">Se allt material
+                           </a></p>
                                 </article>
                             </div>
                         </div>
