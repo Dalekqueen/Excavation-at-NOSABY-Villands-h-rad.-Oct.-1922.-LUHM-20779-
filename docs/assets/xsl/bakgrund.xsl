@@ -141,12 +141,26 @@
         </sup>
     </xsl:template>
     
+    <!-- transform tei add into html sup -->
+    <xsl:template match="tei:emph">
+        <xsl:choose>
+            <xsl:when test="@rend ='ul'">
+                <em style="text-decoration : underline"><xsl:apply-templates/></em>  
+            </xsl:when>
+            <xsl:otherwise>
+                <em><xsl:apply-templates/></em>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     
-    <!-- failed attempt to make weblinks work -->
-    <xsl:template match="ref">
+    
+    <!-- transform tei add into html sup -->
+    <xsl:template match="tei:ref[@target]">
         <a href="{@target}">
-            <xsl:value-of select="."/>
+            <xsl:apply-templates/>
         </a>
     </xsl:template>
+    
+    
     
 </xsl:stylesheet>

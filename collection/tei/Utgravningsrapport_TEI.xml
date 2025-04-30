@@ -97,6 +97,19 @@
       </fileDesc>
       
       
+      <encodingDesc>
+         <projectDesc>
+            <p>Det digitaliseringsprojekt som presenteras här utgörs av en utgrävningsrapport från Lunds historiska museums magasin. 
+               Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
+               Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4-sidor, inklusive försättsblad, samt bilagor i form av en karta
+               och fyra fotografier. 
+               
+               Digitaliseringen av detta kulturarv gjordes inom kursen Digitalisering för bevarande och tillgänglighet 
+               vid Högskolan i Borås vårterminen 2025.
+            </p> 
+         </projectDesc>
+      </encodingDesc>
+      
       <profileDesc>
          <handNotes>
             <handNote>Ursprunglig text skriven i grå blyerts, av Olof Källström.</handNote>
@@ -108,19 +121,7 @@
             <language ident="sv">svenska</language>
          </langUsage>
       </profileDesc>
-      
-      <encodingDesc>
-         <projectDesc>
-            <p>Det digitaliseringsprojekt som presenteras här utgörs av en utgrävningsrapport från Lunds historiska museums magasin. 
-               Rapporten berör en grävning av en grav på Nosaby kyrkogård, i Villands härad, Kristianstads län, den 22 okt. 1921. 
-               Rapporten är handskriven (försättsbladet undantaget) och består av sammanlagt 10 A4-sidor, inklusive försättsblad, samt bilagor i form av en karta
-               och fyra fotografier. 
-               
-               Digitaliseringen av detta kulturarv gjordes inom kursen Digitalisering för bevarande och tillgänglighet 
-               vid Högskolan i Borås vårterminen 2025.
-               </p> 
-         </projectDesc>
-         </encodingDesc>
+     
             
    </teiHeader>
          
@@ -285,10 +286,10 @@
             </p>
             <p>
                <!--blir snyggare utan linebreaks...-->
-               Fotografi på Olof Källström, hämtat från <ref target="https://digitaltmuseum.se">Digitalt museum</ref>. 
+            <emph>Fotografi på Olof Källström, hämtat från <ref target="https://digitaltmuseum.se">Digitalt museum</ref>. 
             Motiv: Sjöfartsutställning på Gävle museum 1957. Museichef Olle Källström. 
             Institution: Arkiv Gävleborg
-            Arkivreferenser: Ingår i arkivnr: 5961, Fotograf: Lennart Olofsson/Foto-Kalle. 
+            Arkivreferenser: Ingår i arkivnr: 5961, Fotograf: Lennart Olofsson/Foto-Kalle. </emph>
             </p>
          </div>
          
