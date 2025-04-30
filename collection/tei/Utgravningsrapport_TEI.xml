@@ -246,7 +246,7 @@
    
    <text> <!--Här börjar själva texten/transkriberingen-->
       <body>
-         <div type="page_background" facs="#olof"> <!--div innebär här att det kommer en bild med text brevid-->
+         <div type="page_background" facs="#olof"> 
             
             <head>Olof Källström</head>
             
@@ -271,17 +271,20 @@
             </p>
             
             <p>
+               
                Referenser:
                Gierow, K. (1940). Skåningar i Stockholm. [Elektronisk resurs] / 
                med en inledning: Skåningar i Stockholm i gången tid. 
-               Skånetryckeriets förlag, Malmö., 
-               <ref target=" https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m
+               Skånetryckeriets förlag, Malmö.
+               <lb/> <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
+               <lb/> <ref target="https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m
                   &amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_
                   facet%24Ej+fastst%c3%a4lld%3a
                   &amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv">Riksarkivet</ref>
-               samt <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
-            </p>
-            <p>
+                 <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
+                </p>  
+               
+               <p>
                <!--blir snyggare utan linebreaks...-->
             <emph>Fotografi på Olof Källström, hämtat från <ref target="https://digitaltmuseum.se">Digitalt museum</ref>. 
             Motiv: Sjöfartsutställning på Gävle museum 1957. Museichef Olle Källström. 
@@ -322,7 +325,7 @@
                <lb/>Okt.1922.
             </p>
          </div>
-         <div type="page_transcription" facs="#sida1"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
+         <div type="page_transcription" facs="#sida1"> 
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
             </p>
@@ -339,7 +342,7 @@
            
          </div>
          
-         <div type="page_transcription" facs="#sida2"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
+         <div type="page_transcription" facs="#sida2"> 
             <p>
             <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning</hi>    
                åt norr av kyrkogården</hi> 
@@ -380,7 +383,7 @@
             </p>
          </div>
          
-         <div type="page_transcription" facs="#sida4"> <!--denna sida har redigerats för att matcha xsl koden för indents-->
+         <div type="page_transcription" facs="#sida4"> 
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi>
                <lb/>Detaljskiss av Kyrkogården.
