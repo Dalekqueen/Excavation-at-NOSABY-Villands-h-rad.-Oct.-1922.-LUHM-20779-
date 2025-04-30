@@ -14,15 +14,15 @@
             <principal>Marie Anneling, Amanda Torbjörnsdottir och Emma Walldén</principal>
             <respStmt>
                <name>Marie Anneling</name>
-               <resp>TEI och transkribering</resp>
+               <resp>Transkribering, Github, TEI och XSL </resp>
             </respStmt>
             <respStmt>
                <name> Amanda Torbjörnsdottir</name>
-               <resp> Rapportskrivning och transkribering</resp>
+               <resp> Transkriberinbg, TEI och Rapportskrivning</resp>
             </respStmt>
             <respStmt>
                <name> Emma Walldén</name>
-               <resp> Bildredigering, kontakt med museum och koll på regler samt förhållningssätt kring digitalisering</resp>
+               <resp> Bildredigering, kontakt med museum och CSS</resp>
             </respStmt>
          </titleStmt>
          
