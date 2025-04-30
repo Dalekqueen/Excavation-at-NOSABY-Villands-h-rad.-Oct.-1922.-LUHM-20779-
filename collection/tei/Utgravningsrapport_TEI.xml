@@ -248,11 +248,8 @@
       <body>
          <div type="page_background" facs="#olof"> <!--div innebär här att det kommer en bild med text brevid-->
             
-            <head>Olof Källström</head> 
+            <head>Olof Källström</head>
             
-            <p> <!--p står för styckesindelning-->
-               <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
-            </p>
             <p>
                Stig Olof (Olle) Erland Källström föddes i Malmö den 27 april 1900. 
                <lb/>Han studerade vid Lunds universitet och mellan år 1922-1928 var han 
@@ -282,7 +279,7 @@
                   &amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_
                   facet%24Ej+fastst%c3%a4lld%3a
                   &amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv">Länk till Riksarkivet</ref>
-               
+               samt <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
             </p>
             <p>
                <!--blir snyggare utan linebreaks...-->

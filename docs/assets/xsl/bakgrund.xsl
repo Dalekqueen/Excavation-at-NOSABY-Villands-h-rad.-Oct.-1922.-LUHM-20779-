@@ -114,9 +114,9 @@
     
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head">
-        <h2>
+        <h4>
             <xsl:apply-templates/>
-        </h2>
+        </h4>
     </xsl:template>
     
     <!-- transform tei paragraphs into html paragraphs -->
