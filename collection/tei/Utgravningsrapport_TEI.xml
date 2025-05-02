@@ -66,12 +66,11 @@
                         
                         Teknisk (information om bildfångstenheten)
                         Kamera: NIKON D7100
-                        Redigeringsprogram: Darktable 5.0.1, GIMP 3.0.0., Procreate 5.3.15
-                        Filformat: NEF omformaterad till TIFF &amp; sedan TIFF till JPEG i två olika storlekar.
-                        Filformat NEF: ca 28 MB
-                        Filformat TIFF: 8 bit, 300 dpi, sRGB
-                        Filformat JPEG (stor): 8 bit, 300 dpi, gråskala
-                        Filformat JPEG (thumbnail): 8 bit, 300 dpi, gråskala
+                        Redigeringsprogram:
+                        Darktable 5.0.1
+                        Filformat: NEF till TIFF
+                        GIMP 3.0.0.  
+                        Filformat: TIFF, 16 bit, 300 dpi, sRGB
                         
                         Beskrivande och bibliografisk (information om det fysiska föremålet)
                         Skapare: Olof Källström
@@ -126,6 +125,7 @@
    </teiHeader>
          
    <facsimile>
+      <!-- Här lägger vi länkar till våra bilder-->
      
          <surface xml:id="olof">
             <figure>
@@ -265,7 +265,8 @@
                som landsantikvarie i Gävleborgs län och intendent för Gävle museum. 1962 
                beslutade han sig för att lämna sin befattning för att istället kunna ägna sig 
                helt åt sitt eget forskningsprojekt om ett tyskt  evangeliarium från 1000-talet. 
-               Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025)   
+               Källström avled 1983. (Riksarkivet.se, hämtat 14 april 2025)
+              
             </p>
             
             <p>
@@ -275,14 +276,13 @@
                med en inledning: Skåningar i Stockholm i gången tid. 
                Skånetryckeriets förlag, Malmö.
                <lb/> <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
-               <lb/> <ref target="https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m&amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_facet%24Ej+fastst%c3%a4lld%3a&amp;page=2&amp;
-                 postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv">Riksarkivet</ref>
-               <lb/> <ref target="https://libris.kb.se/fcrvz5pz582vp7s#it">Libris</ref>
+               <lb/> <ref target="https://sok.riksarkivet.se/?EndastDigitaliserat=false&amp;Namn=K%c3%a4llstr%c3%b6m&amp;AvanceradSok=True&amp;FacettFilter=arkis_aukt_huvudkategori_facet%24Ej+fastst%c3%a4lld%3a&amp;page=2&amp;postid=ArkisRef+SE%2fATA%2fENSK_64&amp;tab=post&amp;type=2&amp;s=Siv">Riksarkivet</ref>
+                 
                 </p>  
                
                <p>
-               
-            <emph>Fotografi på Olof Källström, hämtat från <ref target="https://digitaltmuseum.se">Digitalt museum</ref>. 
+               <!--blir snyggare utan linebreaks...-->
+                  <emph>Fotografi på Olof Källström, hämtat från <ref target="https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom">Digitalt museum</ref>. 
             Motiv: Sjöfartsutställning på Gävle museum 1957. Museichef Olle Källström. 
             Institution: Arkiv Gävleborg
             Arkivreferenser: Ingår i arkivnr: 5961, Fotograf: Lennart Olofsson/Foto-Kalle. </emph>
@@ -308,7 +308,7 @@
                <lb/> <ref target="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/h%C3%A4rad?isSearchResult=true">NE Härad</ref>
                <lb/> <ref target="https://www.ne.se/uppslagsverk/encyklopedi/l%C3%A5ng/villands-h%C3%A4rad?isSearchResult=true">NE Villands Härad</ref>
                
-            </p>
+            </p>     
          </div>
          
          <div type="page_transcription" facs="#forsattsblad"> 
@@ -328,12 +328,12 @@
             <p>
                 <hi rend="indent">Vid grävning av en grav å <hi rend="underline">Nosaby kyrkogård, Willands härad</hi>, Kristianstads län,</hi>  
                 den 22 okt 1921 stötte kyrkväktaren på <hi rend="underline">fyra  större lerkärl. 
-                  <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan</hi>.
+                   De stodo på ett djup av 60-80 cm under nuvarande markytan</hi>.
             </p>
             
-            <p> <!-- ska nedan vara med? -->
-               DETALJSKISS AV KYRKOGÅRDEN
-               <lb/> Beskrivning av skiss: skissen visar en ritning av kyrkogården där fynden hittades
+            
+               <p><hi rend="underline">DETALJSKISS AV KYRKOGÅRDEN</hi></p>
+               <p><lb/> Beskrivning av skiss: skissen visar en ritning av kyrkogården där fynden hittades.
             </p>
            
          </div>
@@ -343,25 +343,25 @@
             <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">ny<lb rend="-"/>ligen företagen utvidgning</hi>    
                åt norr av kyrkogården</hi> 
                (övre delen av kart<lb rend="-"/>skissen på föregående sida).
-               <lb/> Marken består av grov, lös sand med inslag av svart, lerig jord 
-               <lb/> (denna senare dock troligen hitkommen i samband med upp<lb rend="-"/>läggningen av gravkullar  
-               och anord<lb rend="-"/>nandet av blomsterrabatter).
-               <lb/>Vid pla<lb rend="-"/>neringen av kyrkogården avlägsna<lb rend="-"/>des 
-               ett mer än halvmetertjockt grus<lb rend="-"/>lager,
-               <lb/>varför lerkärlen ursprungligen stått 110-130 cm under ytan.
-               <lb/><hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning.</hi>  
-               Emellertid utförde undertecknad den 6-7 okt 1922 en <hi rend="underline">efterundersökning</hi> på platsen
-               <lb/><hi rend="indent"> Då genomgrävdes och sållades jor<lb rend="-"/>den på ett område som sträckte sig </hi>
+                Marken består av grov, lös sand med inslag av svart, lerig jord 
+               (denna senare dock troligen hitkommen i samband med upp<lb rend="-"/>läggningen av gravkullar  
+                och anord<lb rend="-"/>nandet av blomsterrabatter).
+                Vid pla<lb rend="-"/>neringen av kyrkogården avlägsna<lb rend="-"/>des 
+                ett mer än halvmetertjockt grus<lb rend="-"/>lager,
+                varför lerkärlen ursprungligen stått 110-130 cm under ytan.
+                <hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning. 
+                Emellertid utförde undertecknad </hi> den 6-7 okt 1922 en <hi rend="underline"> efterundersökning</hi> på platsen.
+               <hi rend="indent"> Då genomgrävdes och sållades jor<lb rend="-"/>den på ett område som sträckte sig </hi>
                från kullen på den grav, vid vars grävning fyndet gjordes (i gravens norra vägg),
-               <lb/>och till närmast norr därom belägna gravkulle samt så djupt som ske kunde,
-               <lb/>utan att kis<lb rend="-"/>torna skadades av spaden.
-               <lb/>Sanden var mestadels rörd, men en smal vägg stod dock orörd kvar.
-               <lb/> I denna kunde ej upptäckas något kulturlager eller någon sotig jord.
-               <lb/> Några kvar<lb rend="-"/>blivna, mindre skärvor, hörande till 
+               och till närmast norr därom belägna gravkulle samt så djupt som ske kunde,
+               utan att kis<lb rend="-"/>torna skadades av spaden.
+               Sanden var mestadels rörd, men en smal vägg stod dock orörd kvar.
+               I denna kunde ej upptäckas något kulturlager eller någon sotig jord.
+               Några kvar<lb rend="-"/>blivna, mindre skärvor, hörande till 
                de förut påträffade krukorna,
-               <lb/> hitta<lb rend="-"/>des, eljest intet. Dessa lågo på olika höjd och plats inom det område,
-               <lb/> som å skissen är betecknat med (tecknad fyrkant).
-                <lb/>Ett tjugotal meter norr om detta ställe har vid ett annat till- 
+               hitta<lb rend="-"/>des, eljest intet. Dessa lågo på olika höjd och plats inom det område,
+               som å skissen är betecknat med (tecknad fyrkant).
+               Ett tjugotal meter norr om detta ställe har vid ett annat till- 
             </p>
       
                
@@ -381,23 +381,22 @@
          
          <div type="page_transcription" facs="#sida4"> 
             <p>
-               <hi rend="underline">Grävning i Nosaby.</hi>
-               <lb/>Detaljskiss av Kyrkogården.
-               <lb/>Beskrivning av skiss: Skissen visar en ritning av kyrkogården där fynden hittats.
+               <hi rend="underline">Grävning i Nosaby.</hi></p>
+              <p> <lb/><hi rend="underline">DETALJSKISS AV KYRKOGÅRDEN</hi></p>
+               <p><lb/>Beskrivning av skiss: Skissen visar en ritning av kyrkogården där fynden hittades.
             </p>
             <p>
                <hi rend="indent"><hi rend="underline">Tidigare fynd å platsen.</hi> </hi>
                <hi rend="indent">Vid grävning av en grav å <hi rend="underline">Nosaby Kyrkogård,Willands härad</hi>, Kristian<lb rend="-"/>stads län,</hi> 
                den 22 okt.1921 stötte kyrkväktaren på <hi rend="underline">4 större lerkärl</hi>.
-               <lb/> De stodo på ett djup av 60-80 cm under nuvarande markytan.
-            <!-- tycks funka tillsmammans med undeline -->
-               <lb/> <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">nyligen företagen ut<lb rend="-"/>vidgning</hi>
-                    åt norr av  Kyrkogården</hi> (nedre delen av vidstående skiss).
-               <lb/>Mar<lb rend="-"/>ken består av grov lös sand med inslag av svart,lerig jord 
-               <lb/>(denna senare dock hitkommen i samband med uppläggningen av gravkullar  
-               <lb/> och anordnandet av blomsterrabatter).
-               <lb/>Vid planeringen av den nya kyrko<lb rend="-"/>gården avlägsnades ett mer än halvmeterstjockt grus<lb rend="-"/>lager
-               <lb/> varför lerkärlen ursprungligen stått 110-130 cm under ytan
+                De stodo på ett djup av 60-80 cm under nuvarande markytan.
+               <hi rend="indent">Fyndstället är beläget på en <hi rend="underline">nyligen företagen ut<lb rend="-"/>vidgning</hi>
+                åt norr av  Kyrkogården</hi> (nedre delen av vidstående skiss).
+                Mar<lb rend="-"/>ken består av grov lös sand med inslag av svart,lerig jord 
+                (denna senare dock hitkommen i samband med uppläggningen av gravkullar  
+                och anordnandet av blomsterrabatter).
+                Vid planeringen av den nya kyrko<lb rend="-"/>gården avlägsnades ett mer än halvmeterstjockt grus<lb rend="-"/>lager
+                varför lerkärlen ursprungligen stått 110-130 cm under ytan
             </p>
             <p>
                <!--centrera nedan rad istället?-->
@@ -405,24 +404,24 @@
                <hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning. </hi>
                Emel<lb rend="-"/>lertid utförde undertecknad den 6-7 okt. 1922 en efter<lb rend="-"/>undersökning på platsen.
                <hi rend="indent">Då genomgrävdes och sållades jorden på ett område som </hi>
-                sträckte sig från kullen på den grav,
-               <lb/>vid vars grävning  fyndet gjordes (i gravens norra vägg),
-               <lb/>och till närmast 
+               sträckte sig från kullen på den grav,
+               vid vars grävning  fyndet gjordes (i gravens norra vägg),
+               och till närmast 
             </p>
          </div>
          
          <div type="page_transcription" facs="#sida5">
             <p>
                norr om belägna gravkulle samt så djupt som ske kunde,
-               <lb/>utan att kistorna skadades av spaden. 
-               <lb/>San<lb rend="-"/>den var mestadels rörd, men en smal vägg stod dock orörd kvar. 
-               <lb/>I denna kunde ej upptäckas något  kulturlager eller någon sotig jord. 
-               <lb/>Några kvar<lb rend="-"/>blivna, mindre skärvor, hörande till de förut 
+               utan att kistorna skadades av spaden. 
+               San<lb rend="-"/>den var mestadels rörd, men en smal vägg stod dock orörd kvar. 
+               I denna kunde ej upptäckas något  kulturlager eller någon sotig jord. 
+               Några kvar<lb rend="-"/>blivna, mindre skärvor, hörande till de förut 
                på<lb rend="-"/>träffade krukorna hittades,
-               <lb/>eljest intet. Dessa lå<lb rend="-"/>go på olika höjd och plats 
-               <lb/>inom det område som å skissen är betecknat med (tecknad fyrkant). 
-               <lb/>Ett tjugotal meter norr om detta ställe har vid ett annat tillfälle hittats
-               <lb/>en mindre spjutspets av grå flinta, grovt tillhuggen och delvis skadad.
+               eljest intet. Dessa lå<lb rend="-"/>go på olika höjd och plats 
+               inom det område som å skissen är betecknat med (tecknad fyrkant). 
+               Ett tjugotal meter norr om detta ställe har vid ett annat tillfälle hittats
+               en mindre spjutspets av grå flinta, grovt tillhuggen och delvis skadad.
             </p>
             
             <p>
