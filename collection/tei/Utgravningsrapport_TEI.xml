@@ -125,7 +125,6 @@
    </teiHeader>
          
    <facsimile>
-      <!-- Här lägger vi länkar till våra bilder-->
      
          <surface xml:id="olof">
             <figure>
