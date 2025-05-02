@@ -60,7 +60,7 @@
                </msContents>
                <physDesc>
                   <objectDesc>
-                     <!--Här tror jag vi eventuellt kan lägga metadata om bilderna såväl som information om manusciptet-->  
+                    
                         <p>
                         Rapporten fotograferades och fotografierna redigerades i efterhand för optimal läsbarhet.
                         
@@ -215,7 +215,7 @@
          <figure>
             <label>Lerkärl</label>
             <figDesc> 
-               Ett fotografi av två lerkärl?
+               Ett fotografi av två lerkärl
             </figDesc>
             <graphic xml:id="lerkarl_full" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_full.jpg"/>
             <graphic xml:id="lerkarl_thumb" url="assets/img/documents/Gravning_vid_NOSABY_Villands_harad_Okt._1922.(LUHM_20779)_Fotografi_2_Lerkarl_thumb.jpg"/>
@@ -444,7 +444,7 @@
          
          <div type="page_appendix" facs="#lerkarl">
             <p>
-               Beskrivning: Fotografi på ett av de upphittade lerkärlen, fotograferat från två olika håll? 
+               Beskrivning: Fotografi på två av de upphittade lerkärlen.
             </p>
          </div>
          
