@@ -66,11 +66,12 @@
                         
                         Teknisk (information om bildfångstenheten)
                         Kamera: NIKON D7100
-                        Redigeringsprogram:
-                        Darktable 5.0.1
-                        Filformat: NEF till TIFF
-                        GIMP 3.0.0.  
-                        Filformat: TIFF, 16 bit, 300 dpi, sRGB
+                        Redigeringsprogram: Darktable 5.0.1, GIMP 3.0.0., Procreate 5.3.15
+                        Filformat: NEF omformaterad till TIFF &amp; sedan TIFF till JPEG i två olika storlekar.
+                        Filformat NEF: ca 28 MB
+                        Filformat TIFF: 16 bit, 300 dpi, sRGB
+                        Filformat JPEG (stor): ca 1,5 MB, 300 dpi, svart/vit
+                        Filformat JPEG (thumbnail): 300 dpi, svart/vit
                         
                         Beskrivande och bibliografisk (information om det fysiska föremålet)
                         Skapare: Olof Källström
