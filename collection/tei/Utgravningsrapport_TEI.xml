@@ -69,9 +69,9 @@
                         Redigeringsprogram: Darktable 5.0.1, GIMP 3.0.0., Procreate 5.3.15
                         Filformat: NEF omformaterad till TIFF &amp; sedan TIFF till JPEG i två olika storlekar.
                         Filformat NEF: ca 28 MB
-                        Filformat TIFF: 16 bit, 300 dpi, sRGB
-                        Filformat JPEG (stor): ca 1,5 MB, 300 dpi, svart/vit
-                        Filformat JPEG (thumbnail): 300 dpi, svart/vit
+                        Filformat TIFF: 8 bit, 300 dpi, sRGB
+                        Filformat JPEG (stor): 8 bit, 300 dpi, gråskala
+                        Filformat JPEG (thumbnail): 8 bit, 300 dpi, gråskala
                         
                         Beskrivande och bibliografisk (information om det fysiska föremålet)
                         Skapare: Olof Källström
