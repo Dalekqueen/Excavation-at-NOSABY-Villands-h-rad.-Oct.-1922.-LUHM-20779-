@@ -285,7 +285,6 @@
                 </p>  
                
                <p>
-               <!--blir snyggare utan linebreaks...-->
                   <emph>Fotografi på Olof Källström, hämtat från <ref target="https://digitaltmuseum.se/0210110451336/sjofartsutstallning-pa-gavle-museum-1957-museichef-olle-kallstrom">Digitalt museum</ref>. 
             Motiv: Sjöfartsutställning på Gävle museum 1957. Museichef Olle Källström. 
             Institution: Arkiv Gävleborg
@@ -365,7 +364,10 @@
                de förut påträffade krukorna,
                hitta<lb rend="-"/>des, eljest intet. Dessa lågo på olika höjd och plats inom det område,
                som å skissen är betecknat med (tecknad fyrkant).
-               Ett tjugotal meter norr om detta ställe har vid ett annat till- 
+               Ett tjugotal meter norr om detta ställe har vid ett annat till-
+            </p>
+            <p>
+               <emph>(forts. på nästa sida)</emph>
             </p>
       
                
@@ -386,8 +388,8 @@
          <div type="page_transcription" facs="#sida4"> 
             <p>
                <hi rend="underline">Grävning i Nosaby.</hi></p>
-              <p> <lb/><hi rend="underline">DETALJSKISS AV KYRKOGÅRDEN</hi></p>
-               <p><lb/>Beskrivning av skiss: Skissen visar en ritning av kyrkogården där fynden hittades.
+              <p> <lb/><hi rend="underline">DETALJSKISS AV KYRKOGÅRDEN</hi>
+               <lb/>Beskrivning av skiss: Skissen visar en ritning av kyrkogården där fynden hittades.
             </p>
             <p>
                <hi rend="indent"><hi rend="underline">Tidigare fynd å platsen.</hi> </hi>
@@ -403,7 +405,6 @@
                 varför lerkärlen ursprungligen stått 110-130 cm under ytan
             </p>
             <p>
-               <!--centrera nedan rad istället?-->
                <hi rend="indent"><hi rend="underline">Grävning.</hi> </hi>
                <hi rend="indent">Vid fyndtillfället verkställdes ingen undersökning. </hi>
                Emel<lb rend="-"/>lertid utförde undertecknad den 6-7 okt. 1922 en efter<lb rend="-"/>undersökning på platsen.
@@ -411,6 +412,9 @@
                sträckte sig från kullen på den grav,
                vid vars grävning  fyndet gjordes (i gravens norra vägg),
                och till närmast 
+            </p>
+            <p>
+               <emph>(forts. på nästa sida)</emph> 
             </p>
          </div>
          
