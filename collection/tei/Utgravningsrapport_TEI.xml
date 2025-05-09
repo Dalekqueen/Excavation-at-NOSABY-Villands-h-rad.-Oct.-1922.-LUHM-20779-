@@ -441,7 +441,7 @@
             <p>
                BILAGA TILL REDOGÖRELSE FÖR GRÄVNING Å NOSABY KYRKOGÅRD DEN 6 OCH 7 OKT. 1922 MED ANLEDNING AV FYND AV STENÅLDERSKÄRL [INV.20779].
                
-               <lb/>Beskrivning kartskiss: Kartskiss över Nosaby kyrkas läge.
+               <lb/><emph>Beskrivning kartskiss: Kartskiss över Nosaby kyrkas läge.</emph>
                
                <lb/>KARTSKISS, UTVISANDE NOSABY KYRKAS LÄGE I FÖRH. TILL OMGIVANDE SJÖAR. 
                
@@ -451,19 +451,19 @@
          
          <div type="page_appendix" facs="#lerkarl">
             <p>
-               Beskrivning: Fotografi på två av de upphittade lerkärlen.
+               <emph>emph>Beskrivning: Fotografi på två av de upphittade lerkärlen.</emph>
             </p>
          </div>
          
          <div type="page_appendix" facs="#skarvor">
             <p>
-               Beskrivning: Skärvor från de upphittade lerkärlen. 
+               <emph>Beskrivning: Skärvor från de upphittade lerkärlen.</emph>
             </p>
          </div>
          
          <div type="page_appendix" facs="#utgravningsplats">
             <p>
-               Beskrivning: Fotografi från utgrävningsplatsen.  
+               <emph>Beskrivning: Fotografi från utgrävningsplatsen.</emph> 
             </p>
          </div>
          
