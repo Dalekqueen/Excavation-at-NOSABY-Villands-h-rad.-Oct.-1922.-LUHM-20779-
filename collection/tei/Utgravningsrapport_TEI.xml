@@ -67,10 +67,9 @@
                         Teknisk (information om bildfångstenheten)
                         Kamera: NIKON D7100
                         Redigeringsprogram:
-                        Darktable 5.0.1
-                        Filformat: NEF till TIFF
-                        GIMP 3.0.0.  
-                        Filformat: TIFF, 16 bit, 300 dpi, sRGB
+                        Darktable 5.0.1 för att omvandla filformat NEF till TIFF.
+                        Procreate 5.3.15 användes för att omvandla filformat TIFF (16 bit, 300 dpi, sRGB) till JPEG (8bit, 300 dpi, sRGB). Även redigering av bilder för att optimera bilderna skedde i programmer Procreate.
+                        Det skapades även JPEG thumbnails som är i mindre format. 
                         
                         Beskrivande och bibliografisk (information om det fysiska föremålet)
                         Skapare: Olof Källström
@@ -89,6 +88,7 @@
                         Var: Skiffervägen 14, LUND 224 78
                         Hur: På magasinet i ett fotorum.
                         Kamerainställningarna gjordes med hjälp av anställd som ansvarar för fotografering på magasinet.
+                        Två softboxes användes för belysning.
                      </p>
                   </objectDesc>    
                </physDesc>
