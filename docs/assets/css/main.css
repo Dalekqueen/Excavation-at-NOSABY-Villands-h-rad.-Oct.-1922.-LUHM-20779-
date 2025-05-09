@@ -97,6 +97,25 @@ h3 {
     text-align: center;    
 }
 
+footer {
+    border-top: 1px solid black;
+    padding-top: 1vw;
+    margin-top: 1vw;
+}
+
+.copyright {
+    width: 50%;
+    margin: auto;
+}
+
+.copyright_logos, .copyright_text {
+    display: inline;
+}
+
+.copyright_logo {
+		width: 5vw;
+		margin:.15vw;
+	}
 
 .row {
     padding: 1vw;
